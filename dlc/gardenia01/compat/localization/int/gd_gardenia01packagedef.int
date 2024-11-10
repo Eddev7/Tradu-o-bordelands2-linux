@@ -1,0 +1,51 @@
+[Customization.CustomizationSet_Gardenia01_AssassinCool DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Dominação do Assassino"
+
+[Customization.CustomizationSet_Gardenia01_AssassinPower DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Supremacia do Assassino"
+
+[Customization.CustomizationSet_Gardenia01_AssassinZany DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Loucura do Assassino"
+
+[Customization.CustomizationSet_Gardenia01_MechroCool DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Dominação da Mechromancer"
+
+[Customization.CustomizationSet_Gardenia01_MechroPower DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Supremacia da Mechromancer"
+
+[Customization.CustomizationSet_Gardenia01_MechroZany DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Loucura da Mechromancer"
+
+[Customization.CustomizationSet_Gardenia01_MercenaryCool DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Dominação do Gunzerker"
+
+[Customization.CustomizationSet_Gardenia01_MercenaryPower DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Supremacia do Gunzerker"
+
+[Customization.CustomizationSet_Gardenia01_MercenaryZany DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Loucura do Gunzerker"
+
+[Customization.CustomizationSet_Gardenia01_SirenCool DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Dominação da Sereia"
+
+[Customization.CustomizationSet_Gardenia01_SirenPower DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Supremacia da Sereia"
+
+[Customization.CustomizationSet_Gardenia01_SirenZany DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Loucura da Sereia"
+
+[Customization.CustomizationSet_Gardenia01_SoldierCool DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Dominação do Soldado"
+
+[Customization.CustomizationSet_Gardenia01_SoldierPower DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Supremacia do Soldado"
+
+[Customization.CustomizationSet_Gardenia01_SoldierZany DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Loucura do Soldado"
+
+[ItemSetDef_Gardenia01 DownloadableItemSetDefinition]
+ContentDisplayName="Pacote de Vestimentas 1"
+
+[PackageDef_Gardenia01 DownloadablePackageDefinition]
+PackageDisplayName="Pacote de Vestimentas 1"
+

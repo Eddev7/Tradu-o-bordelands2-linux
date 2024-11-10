@@ -1,0 +1,2136 @@
+[bar]
+BarBack=<StringAliasMap:GFx_Accept> Voltar
+BarBackKB=
+BarSelect=<StringAliasMap:GFx_Accept> Selecionar
+BarSelectKB=
+BarDelete=<StringAliasMap:CharSelectDelete> Apagar
+
+[board]
+AcceptAccept=<StringAliasMap:GFx_Accept> Aceitar
+AcceptDecline=<StringAliasMap:GFx_Cancel> Recusar
+AcceptScroll=<StringAliasMap:GBA_SortInvForward> / <StringAliasMap:GBA_SortInvBackward> Rolar
+AcceptToolTips="%s1     %s2     %s3"
+CompleteButtonBarGamepad=<StringAliasMap:GFx_Accept> Pegar recompensa     <StringAliasMap:GFx_Cancel> Sair     <StringAliasMap:GBA_SortInvForward> / <StringAliasMap:GBA_SortInvBackward> Rolar
+CompleteButtonBarKB=<StringAliasMap:GFx_Accept> Pegar recompensa     <StringAliasMap:GFx_Cancel> Sair     <StringAliasMap:GBA_SortInvForward> / <StringAliasMap:GBA_SortInvBackward> Rolar
+MultiButtonBarGamepad=<StringAliasMap:GFx_Accept> Selecionar     <StringAliasMap:GFx_Cancel> Sair     <StringAliasMap:GBA_SortInvForward> / <StringAliasMap:GBA_SortInvBackward> Rolar
+MultiButtonBarKB=<StringAliasMap:GFx_Accept> Selecionar     <StringAliasMap:GFx_Cancel> Sair     <StringAliasMap:GBA_SortInvForward> / <StringAliasMap:GBA_SortInvBackward> Rolar
+NoChoiceButtonBarGamepad=<StringAliasMap:GFx_Cancel> Sair     <StringAliasMap:GBA_SortInvForward> / <StringAliasMap:GBA_SortInvBackward> Rolar
+NoChoiceButtonBarKB=<StringAliasMap:GFx_Cancel> Sair     <StringAliasMap:GBA_SortInvForward> / <StringAliasMap:GBA_SortInvBackward> Rolar
+
+[CharBar]
+ButtonBarGamepad=<StringAliasMap:GFx_Cancel> Cancelar
+ButtonBarKB=<StringAliasMap:GFx_Cancel> Cancelar
+
+[charsel]
+ButtonBarGamepad=<StringAliasMap:XboxTypeS_LeftX> Mudar seleção    <StringAliasMap:GFx_Accept> Confirmar personagem    <StringAliasMap:GFx_Cancel> Sair
+ButtonBarKB=<StringAliasMap:GFx_Accept> Confirmar personagem    <StringAliasMap:GFx_Cancel> Sair
+
+[CharSelect]
+BerserkerDescString=Luta ao lado de um robô\nARMAS PREFERIDAS:\nDesconhecidas\nHABILIDADE DE AÇÃO:\nArmadilha Mortal
+HunterDescString=Mestre no combate à distância\nARMAS PREFERIDAS:\nRifles Sniper e Revólveres\nHABILIDADE DE AÇÃO:\nExecução
+SirenDescString=Usa truques e artimanhas\nARMAS PREFERIDAS:\nArmas de Choque, Incendiárias e Corrosivas\nHABILIDADE DE AÇÃO:\nElevação
+SoldierDescString=Assassino com formação militar\nARMAS PREFERIDAS:\nFuzis e Escopetas\nHABILIDADE DE AÇÃO:\nTorreta Escorpião
+
+[dialogbar]
+ModalDialogBar=<StringAliasMap:GFx_Cancel> Voltar
+ModalDialogBarKB=<StringAliasMap:GFx_Cancel> Voltar
+
+[DLCMissionNames]
+; do not remove this section!
+TestKey=Missão baixável
+
+[dlg]
+Cancel=Cancelar
+No=Não
+Ok=OK
+Yes=Sim
+
+[dlgCanCatchUp]
+Caption=Aviso
+PromptOld=%s está à sua frente na história principal.  Gostaria de alcançá-lo?  Fazendo isso você receberá os créditos pelas missões que o anfitrião já concluiu.\nSe optar por não alcançá-lo, as missões de história concluídas durante essa sessão não serão salvas no seu perfil.
+Prompt=O anfitrião está à sua frente na história principal.  Gostaria de alcançá-lo?  Fazendo isso você receberá os créditos pelas missões que o anfitrião já concluiu.\nSe optar por não alcançá-lo, as missões de história concluídas durante essa sessão não serão salvas no seu perfil.
+Yes=Alcançar
+No=Cancelar
+
+[dlgCannotConnectLANIncompatibleVersion]
+Caption=Jogo incompatível
+Prompt=A partida selecionada está numa versão diferente da sua. Assegure-se de que ambos os jogos estejam na mesma versão antes de conectar.
+
+[dlgCantInviteNotLoggedIn]
+Caption=O convite falhou
+Prompt=Você deve estar logado na Xbox LIVE para convidar amigos.
+
+[dlgCantInviteToSystemLink]
+Caption=O convite falhou
+Prompt=Você não pode convidar amigos para uma partida interconectada.
+
+[dlgCantLoadAsGuest]
+Caption=Login de convidado
+Prompt=Você não pode carregar um personagem já existente porque está logado como convidado.
+
+[dlgCantLoadNotLoggedIn]
+Caption=Não logado
+Prompt=Você não pode carregar um personagem existente porque não está logado com um perfil de jogador.
+
+[dlgCantUseSameCharacter]
+Caption=Em uso
+Prompt=Você não pode escolher o mesmo personagem salvo por outro jogador. Por favor, escolha um personagem diferente.
+
+[dlgChatDisabledPSN]
+Caption=Chat Desativado
+Prompt=As comunicações online estão desativadas na sua Sony Entertainment Network account due to parental control restrictions.  Access to communication features will be disabled.
+
+[dlgPS3ChoseSameUserInfo]
+Caption=Warning
+Prompt=You have chosen the same system user as the primary player. If you continue playing as this user, none of your profile-wide settings (such as the contents of Claptrap's Secret Stash, unlocked customizations, and challenge rewards) will be saved.\n\nPress <StringAliasMap:GFx_Cancel> to leave and re-join as a different user if you'd like these settings to persist.
+
+[dlgClientSendingSaveGame]
+Caption=Carregando Personagem
+Prompt=Enviando dados de personagem para o anfitrião. Por favor, aguarde...
+
+[dlgLoadedFromBackupSave]
+Caption=Backup Carregado
+Prompt=Seu arquivo de salvamento está danificado então, um arquivo de backup foi usado para carregar uma versão recente do seu personagem.
+
+[dlgLoadingCharacter]
+Caption=Carregando Personagem
+Prompt=Carregando pacote de personagem. Por favor, aguarde...
+
+[dlgConfirmExpenditureOfGoldenKey]
+Caption=Confirmar Gasto
+Prompt=Ao usar esse cofre, você gastará uma de suas chaves douradas. Essa ação não poderá ser revertida. Tem certeza que deseja gastar sua chave dourada nesse cofre?
+
+[dlgConfirmPS3Controller]
+Caption=Selecionar Controle
+Prompt=To continue connecting to the host, please register a controller by pressing <StringAliasMap:GFx_Accept>.
+Tooltips=<StringAliasMap:GFx_Accept> Selecionar
+
+[dlgConfirmSaveDelete]
+Caption=Apagar jogo salvo
+Prompt=%CHARACTER%\n\nVocê está prestes a apagar um jogo salvo. Tem certeza?
+
+[dlgConnecting]
+Caption=Conectando
+Prompt=Conectando ao anfitrião. Por favor, aguarde.\n\nDesconexão em %TIME% %SECONDS%.
+
+[dlgNoCancelConnecting]
+Caption=Conectando
+Prompt=Conectando ao anfitrião. Por favor, aguarde.
+
+[dlgConnectionCanceled]
+Caption=Conexão cancelada
+Prompt=Tentativa de conexão cancelada.
+
+[dlgConnectionFailed]
+Caption=Falha de conexão
+Prompt=Impossível conectar ao anfitrião.
+
+[dlgConnectionFailedAuthentication]
+Caption=Falha de conexão
+Prompt=Erro de autenticação com o anfitrião.
+
+[dlgConnectionFailedServerFull]
+Caption=Falha de conexão
+Prompt=Impossível entrar. A partida solicitada já está completa.
+
+[dlgConnectionFailedServerUnavailable]
+Caption=Falha de conexão
+Prompt=Essa partida não está mais disponível.
+
+[dlgControllerDisconnectedPS3]
+Caption=Controller Disconnected
+Prompt=Please reconnect the wireless controller on port %PORT% to resume.
+
+[dlgCorruptSaveData]
+Caption=Dados corrompidos
+Prompt=Os dados dessa partida estão corrompidos e não podem ser carregados. Deseja excluir esses dados?
+
+[dlgCorruptLastLoadedSaveData]
+Caption=Dados corrompidos
+Prompt=Os dados do seu último personagem salvo estão corrompidos e não podem ser carregados. Por favor, inicie com um novo personagem ou um personagem diferente.
+
+[dlgCorruptSaveDataPS3]
+Caption=Dados corrompidos
+Prompt=Os dados de salvamento desse jogo estão corrompidos e não podem ser carregados. É aconselhável excluir esse arquivo.
+
+[dlgUnloadedDlcSaveData]
+Caption=Dados impossíveis de carregar
+Prompt=Esses dados de salvamento não podem ser carregados porque pertencem a um conteúdo adicional não instalado ou que você não possui permissão para executar. Se você já adquiriu esse conteúdo adicional, certifique-se de que ele foi completamente baixado e instalado.
+
+[dlgCreateOnlineGameFailed]
+Caption=Erro
+Prompt=Impossível criar um jogo online. Por favor, verifique sua conexão com a Xbox LIVE.
+
+[dlgDeletingSavegame]
+Caption=Apagando dados de salvamento
+Prompt=Apagando dados. Por favor, aguarde.
+
+[dlgSavegameDeletionError]
+Caption=Erro
+Prompt=Ocorreu um erro ao tentar apagar o arquivo selecionado. Por favor, verifique seu disposito de armazenamento e tente novamente.
+
+[dlgErrorLoadingSavedCharacter]
+Caption=Erro
+Prompt=Error loading the selected character. Please check your storage device and try again.
+
+[dlgDifficultySelect]
+Caption=Seleção de Modo de Jogo
+Prompt=Escolha o modo de jogo que deseja carregar.
+Dif=Modo %PLAYTHROUGH_NAME%
+Cancel=Cancelar
+
+[dlgDifficultySelectNotify]
+Caption=Seleção de modo de jogo
+Prompt=Gostaria de carregar um modo de jogo diferente?  É possível alterar mais adiante no menu de seleção de personagem.
+Dif=Modo %PLAYTHROUGH_NAME%
+Cancel=Cancelar
+
+[dlgDLCNoLinkConnection]
+Caption=Sem conexão de rede
+Prompt=Você não pode visualizar o conteúdo adicional sem uma conexão de rede válida.
+
+[dlgDLCNotLoggedInForLIVE]
+Caption=Não logado
+Prompt=Você deve estar logado na Xbox LIVE para visualizar esse conteúdo adicional.
+
+[dlgDLCNotLoggedInForPSN]
+Caption=Not Signed In
+Prompt=You must connect to PlayStation®Network to view downloadable content.
+
+[dlgDLCNotLoggedInForSteam]
+Caption=Não logado
+Prompt=Você precisa se conectar aos servidores da Steam para visualizar o conteúdo adicional.
+
+[dlgDLCNotLoggedInForEpic]
+Caption=Not Signed In
+Prompt=You must connect to the Epic servers to view downloadable content.
+
+[dlgEnterCode_MissionAdded]
+Caption=Desbloqueado!
+Prompt=Você conseguiu desbloquear o Anexo de Seleção Natural! Procure pela sua porta de entrada na Exploração e Preservação da Vida Selvagem.
+
+[dlgEnterCode_PremiereClubAdded]
+Caption=Desbloqueado!
+Prompt=Parabgéns por se tornar membro do Clube Premiere! Os personagens que você criar contarão com a Relíquia dos Caçadores da Sepultura e uma coleção de armas da fabricante Gearbox no seu inventário!
+
+[dlgEnterCode_CollectorsAdded]
+Caption=Desbloqueado!
+Prompt=Obrigado por adquirir a edição especial de Borderlands 2! Você desbloqueou uma customização de modelo corporal, uma customização de formato de cabeça e a Granada de Fogos de Artifício!
+
+[dlgEnterCode_FailInvalid]
+Caption=Código recusado
+Prompt=O código que você inseriu foi recusado porque não parece ser um código válido.
+
+[dlgEnterCode_FailUsed]
+Caption=Código recusado
+Prompt=O código que você inseriu foi recusado porque trata-se de um código que já está em uso.
+
+[dlgExit]
+Cancel=Cancelar
+Caption=Sair da partida?
+Prompt=%NETWORK%Tem certeza que deseja sair da partida atual e voltar ao menu principal?
+Prompt_Split=%NETWORK%Tem certeza que deseja sair da partida atual e voltar ao menu principal?\n\n%PLAYER0: %SAVESTATE0\n%PLAYER1: %SAVESTATE1
+SaveState_No=Todo progresso não salvo será perdido.
+SaveState_Yes=Todo seu progresso será salvo.
+Save=Salvar e sair
+NoSave=Sair sem salvar
+TipSave=Todo seu progresso será salvo.
+NetworkPlayers="Os demais jogadores da rede também sairão da partida.  "
+
+[dlgSplitExit]
+Cancel=Cancelar
+Caption=Abandonar a partida?
+Prompt=Você será removido da partida atual.  Todos os demais jogadores irão permanecer.  Tem certeza que deseja abandonar a partida?
+Save=Salvar e abandonar a partida
+TipSave=Todo seu progresso será salvo.
+
+[dlgExitCannotSave]
+Cancel=Cancelar
+Caption=Impossível salvar
+NoSave=Sair sem salvar
+Prompt=Você não pode salvar seu progresso nesse momento.  %NETWORK%Tem certeza que deseja sair da partida atual e retornar ao menu principal?
+TipNoSave=Todo progresso não salvo será perdido.
+
+[dlgSplitExitCannotSave]
+Cancel=Cancelar
+Caption=Impossível salvar
+NoSave=Abandonar a partida sem salvar
+Prompt=Você não pode salvar seu progresso nesse momento.  Você será removido da partida atual.  Todos os demais jogadores irão permanecer.  Tem certeza que deseja abandonar a partida?
+TipNoSave=Unsaved progress will be lost.
+
+[dlgExitLobby]
+Cancel=Cancelar
+Caption=Sair da partida?
+Prompt=%NETWORK%Tem certeza que deseja sair da partida atual e voltar ao menu principal?
+Quit=Sair
+
+[dlgExitLobbySplit]
+Cancel=Cancelar
+Caption=Sair da partida?
+Prompt=Tem certeza que deseja sair da partida de tela dividida?
+Quit=Sair
+
+[dlgDisconnect]
+Caption=Desconectar?
+Prompt=Tem certeza que deseja desconectar-se da partida atual e voltar ao menu principal?
+Yes=Desconectar
+No=Cancelar
+
+[dlgReturnToTitle]
+Caption=Voltar à tela título?
+Prompt=Tem certeza que deseja voltar à tela título?%DLCINSTALL%
+
+[dlgReturnToTitleNetworked]
+Caption=Voltar à tela título?
+Prompt=Tem certeza que deseja voltar à tela título?  Fazendo isso você será desconectado de todos os jogadores da rede.%DLCINSTALL%
+
+[dlgSplitLeave]
+Caption=Abandonar partida?
+Prompt=Você será removido da partida atual.  Todos os demais jogadores irão permanecer.  Tem certeza que deseja abandonar a partida?
+Yes=Abandonar
+No=Cancelar
+
+[dlgFastForward]
+Caption=Progressão rápida?
+Prompt=Deseja pular as missões que ainda não concluiu em outra sessão de jogo?
+
+[dlgFastForwardFailed]
+Caption=Falha na progressão rápida
+Prompt=Outro jogador entrou na sessão.
+
+[dlgGettingSavegameList]
+Caption=Obtendo lista de partidas salvas
+Prompt=Recuperando partidas disponíveis, Por favor, aguarde.
+
+[dlgGuestsCantChooseStorage]
+Caption=Login de convidado
+Prompt=Você está logado atualmente como convidado e não poderá salvar nenhum progresso ou ajustes.
+
+[dlgGuestsCantPlayOnline]
+Caption=Login de convidado
+Prompt=Você está logado atualmente como convidado e, portanto, não pode participar de partidas online.
+
+[dlgGuestsCantPlaySystemLink]
+Caption=Login de convidado
+Prompt=Você está logado atualmente como convidado e, portanto, não pode jogar uma partida de rede.
+
+[dlgGuestsNotAllowed]
+Caption=Não permitido
+Prompt=Você está logado atualmente como convidado.  Você deve logar-se com um perfil de jogador para poder continuar.
+
+[dlgHostLeftGame]
+Caption=Conexão perdida
+Prompt=Você retornou ao menu principal porque o anfitrião encerrou o jogo.
+
+[dlgHostMatchmaking]
+Caption=Gerador de Partidas
+Prompt=Nenhuma partida foi encontrada.  Gostaria de iniciar uma partida pública para que outros jogadores disponíveis possam participar?
+
+[dlgKeyBind]
+Caption=Vínculo de tecla
+Prompt=\nPressione a tecla que deseja vincular a "%ACTION%" ou pressione Esc para cancelar.
+
+[dlgKeyBindSwap]
+Caption=Vínculo de tecla
+Prompt=\nA tecla "%KEY%" já tinha sido vinculada.\n\nA tecla "%ACTION%" foi modificada para "%ACTIONSWAP%".
+
+[dlgResetKeyBind]
+Caption=Restaurar vínculo de teclas
+No=Não
+Prompt=\nTem certeza que deseja restaurar seus vínculos de tecla para seus padrões?
+Yes=Sim
+
+[dlgKicked]
+Caption=Removido
+Prompt=Você voltou ao menu principal porque o anfitrião removeu você do jogo.
+
+[dlgKickedNoDlc]
+Caption=Removido
+Prompt=Você voltou ao menu principal porque o anfitrião continuou uma partida salva em um conteúdo adicional que você não possui.
+
+[dlgKickedPartyKill]
+Caption=Sessão finalizada
+Prompt=O anfitrião decidiu encerrar a sessão para jogar um modo de rede diferente.
+
+[dlgDlcNeedCompatibilityPackDownload]
+Caption=Download de pacote de compatibilidade
+Prompt=Você precisa baixar o último pacote de compatibilidade para poder jogar online. Esse conteúdo adicional lhe permite conextar a outros jogadores usando novos personagens, veículos, equipamentos e é claro, recompensas!<br /><br />Que tal baixar esse pacote de compatibilidade agora?
+
+[dlgDlcNeedCompatibilityPackInstall]
+Caption=Instalação do de pacote de compatibilidade
+Prompt=Você precisa instalar o último pacote de compatibilidade para poder jogar online. Esse conteúdo adicional lhe permite conextar a outros jogadores usando novos personagens, veículos, equipamentos e é claro, recompensas!<br /><br />Que tal baixar esse pacote de compatibilidade agora?<br /><br />Selecionando 'Sim' você será enviado até a tela título.
+
+[dlgCompatibilityPackNoLinkConnection]
+Caption=Sem conexão de rede
+Prompt=Para baixar o último pacote de compatibilidade você precisa de uma conexão de rede válida.
+
+[dlgCompatibilityPackNotLoggedIn]
+Caption=Não logado
+Prompt=Para baixar o último pacote de compatibilidade você precisa ser um membro da Xbox LIVE Gold  e estar logado na Xbox LIVE.
+
+[dlgCompatibilityPackNotConnected]
+Caption=Não conectado
+Prompt=Para baixar o último pacote de compatibilidade você precisa estar conectado à Xbox LIVE.
+
+[dlgCompatibilityPackAccessRestricted]
+Caption=Acesso restrito
+Prompt=Para baixar o último pacote de compatibilidade você precisa estar conectado à Xbox LIVE e ter privilégios online.
+
+[dlgDlcCompatMismatchXbox]
+Caption=Falha ao entrar na partida
+Prompt=You do not have the same set of downloadable content as the other player(s). Please ensure that all players have the same game version and the latest compatibility pack and try again.
+
+[dlgDlcCompatMismatch]
+Caption=Falha ao entrar na partida
+Prompt=Você está jogando uma versão diferente dos outros jogadores. Por favor, assegure-se de que todos os jogadores possuam a mesma versão do jogo e tente novamente.
+
+[dlgDlcMapTransitionFailed]
+Caption=Erro de viagem
+Prompt=Você não pode viajar até o local onde o anfitrião se encontra porque você não possui o conteúdo adicional necessário instalado.
+
+[dlgDlcMapTransitionErrorNotLicensed]
+Caption=Erro de viagem
+Prompt=Você voltou à tela título porque o anfitrião está viajando para uma área de conteúdo adicional que você ainda não possui.
+
+[dlgGainedNetworkConnection]
+Caption=Conexão ativa
+Prompt=Sua conexão de rede está ativa.
+
+[dlgGained360OnlineLinkInMainMenu]
+Caption=Conexão ativa
+Prompt=Você está conectado à Xbox LIVE.
+
+[dlgGainedPS3OnlineLinkInMainMenu]
+Caption=Conexão ativa
+Prompt=You are now connected to PlayStation®Network.
+
+[dlgGainedPCOnlineLinkInMainMenu]
+Caption=Conexão ativa
+Prompt=Você está conectado aos servidores Steam.
+
+[dlgGainedEpicPCOnlineLinkInMainMenu]
+Caption=Conexão ativa
+Prompt=Você está conectado aos servidores Epic.
+
+[dlgGameSearching]
+Caption=Procurando
+Prompt=Procurando partidas...
+
+[dlgHoldingUpTransition]
+Caption=Aviso
+Prompt=Outro jogador deseja iniciar um uma viagem.
+
+[dlgLoadingSavedGame]
+Caption=Carregando
+Prompt=Carregando personagem selecionado...
+
+[dlgConfirmKickPlayer]
+Caption=Expulasar %PLAYER%?
+Prompt=Tem certeza que deseja expulsar esse jogador dessa partida?
+
+[dlgLobbyReadyCheck]
+Caption=Iniciar partida
+Prompt=Nem todos os jogadores estão prontos.  Deseja iniciar a partida mesmo assim?
+Start=Iniciar partida
+Wait=Aguardar jogadores
+
+[dlgLobbyReadyCheckPS3]
+Caption=Iniciar partida
+Prompt=Nem todos os jogadores estão prontos.
+Wait=Aguardar jogadores
+
+[dlgLobbySplitCheck]
+Caption=Sem jogadores suficientes
+Prompt=Um segundo jogador deve entrar na partida para jogar o modo tela dividida.
+
+[dlgLobbyNotLoaded]
+Caption=Aguarde
+Prompt=O nível que o anfitrião está jogando ainda está carregando.  Por favor, tente novamente daqui a pouco.
+
+[dlgLoggedInMidGame]
+Caption=Login
+Prompt=Você retornou à tela título porque ocorreu uma mudança de login.
+
+[dlgLoggedOutMidGame]
+Caption=Logoff
+Prompt=Você retornou à tela título porque ocorreu uma mudança de logoff.
+
+[dlgLost360OnlineLinkInMainMenu]
+Caption=Conexão perdida
+Prompt=Sua conexão à Xbox LIVE foi perdida.
+
+[dlgLost360OnlineLinkReturnedToMenu]
+Caption=Conexão perdida
+Prompt=Você retornou ao menu principal porque sua conexão com a Xbox LIVE foi perdida.
+
+[dlgLostConnectionToHost]
+Caption=Conexão perdida
+Prompt=Você retornou ao menu principal porque sua conexão com o anfitrião foi perdida.
+
+[dlgLostNetworkConnection]
+Caption=Perda de conexão de rede
+Prompt=Assegure-se de que seus cabos Ethernet estão conectados adequadamente.
+
+[dlgLostNetworkConnectionReturnedToMenu]
+Caption=Perda de conexão
+Prompt=Você retornou ao menu principal porque já não possui mais uma conexão de rede.
+
+[dlgLostOnlineLinkReturnedToMenu]
+Caption=Perda de conexão
+Prompt=Você retornou ao menu principal porque perdeu sua conexão com a internet.
+
+[dlgLostPCOnlineLinkInMainMenu]
+Caption=Perda de conexão
+Prompt=Sua conexão com os servidores Steam foi perdida.
+
+[dlgLostEpicPCOnlineLinkInMainMenu]
+Caption=Connection Lost
+Prompt=Your connection to the Epic servers was lost.
+
+[dlgLostPS3OnlineLinkInMainMenu]
+Caption=Perda de conexão
+Prompt=Your connection to PlayStation®Network was lost.
+
+[dlgLostPS3OnlineLinkReturnedToMenu]
+Caption=Perda de conexão
+Prompt=You have been returned to the main menu because your connection to PlayStation®Network was lost.
+
+[dlgMatchmakingMatchFound]
+Caption=Gerador de Partidas
+Prompt=Partida encontrada!
+
+[dlgMatchmakingSearching0]
+Cancel=Cancelar
+Caption=Gerador de Partidas
+Prompt=Procurando partidas de alto nível. Por favor, aguarde.
+
+[dlgMatchmakingSearching1]
+Cancel=Cancelar
+Caption=Gerador de Partidas
+Prompt=Procurando boas partidas, Por favor, aguarde.
+
+[dlgMatchmakingSearching2]
+Cancel=Cancelar
+Caption=Gerador de Partidas
+Prompt=Procurando partidas aceitáveis. Por favor, aguarde.
+
+[dlgMustBeConnectedToLIVE]
+Caption=Não conectado
+Prompt=Você precisa se conectar à Xbox LIVE para jogar online.
+
+[dlgMustBeConnectedToPSN]
+Caption=Não conectado
+Prompt=Você precisa se conectar à PlayStation®Network para jogar online.
+
+[dlgMustBeConnectedToSteam]
+Caption=Não conectado
+Prompt=Você precisa se conectar à Steam para jogar online.
+
+[dlgMustBeConnectedToEpic]
+Caption=Não conectado
+Prompt=Você precisa se conectar à EPIC para jogar online.
+
+[dlgNeedStorageDeviceToLoad]
+Cancel=Cancelar
+Caption=No device found
+Choose=Choose storage device
+Prompt=You must choose a valid storage device in order to load a saved character. Would you like to choose a device?
+TipCancel=Cancel loading a saved character
+TipChoose=Choose a new storage device
+
+[dlgNetworkConnectionRestored]
+Caption=Conexão restaurada
+Prompt=Sua conexão de rede foi reestabelecida.
+
+[dlgNetworkOptions]
+Caption=Opções de rede
+Prompt=Selecione o tipo de rede:
+FriendsOnly=<StringAliasMap:Term_Network_FriendsOnly>
+FriendsOnlyTooltip=Seus amigos poderão entrar na sua partida sem um convite.
+InviteOnly=<StringAliasMap:Term_Network_InviteOnly>
+InviteOnlyTooltip=Um convite é necessário para entrar na sua partida.
+Public=<StringAliasMap:Term_Network_Public>
+PublicTooltip=Qualquer um pode entrar na sua partida sem um convite. Seu jogo foi criado no Gerador de Partidas.
+SystemLink=<StringAliasMap:Term_Network_LAN>
+SystemLinkTooltip=Crie uma partida de rede local ou busque por outros jogadores.
+Offline=<StringAliasMap:Term_Network_Offline>
+OfflineTooltip=Jogue sozinho ou em tela dividida.
+OfflineTooltipPC=Jogue sozinho.
+Back=Voltar
+BackTooltip=
+// MM: JSayer: Adicionando locais de exemplo em inglês para novas opções de rede
+CrossplayOn=Cross-Play SHiFT PC Ativada
+CrossplayOnTooltip=Jogue com todos os jogadores de PC usando sua conta SHiFT.
+CrossplayOff=Cross-Play SHiFT PC Desativada
+CrossplayOffTooltip=Jogue apenas com jogadores de PC na mesma plataforma.
+AutoFriendSyncOn=Sincronização automática de amigos ativada
+AutoFriendSyncOnTooltip=Sincronize automaticamente os amigos que você adicionou na sua plataforma aos seus amigos do SHiFT.
+AutoFriendSyncOff=Sincronização automática de amigos desativada
+AutoFriendSyncOffTooltip=NÃO sincronize automaticamente os amigos que você adicionou na sua plataforma aos seus amigos do SHiFT.
+// MM: JSayer: fim
+
+[dlgNetworkPlayersKicked]
+Caption=Atenção
+Prompt=Fazendo isso você irá desconectar todos os jogadores online.  Deseja mesmo fazer isso?
+
+[dlgNewPlaythrougNotification]
+Caption=Novo modo de jogo desbloqueado!
+Prompt=Parabéns! Você desbloqueou o modo %PLAYTHROUGH_NAME%!  Você pode alterar o modo de jogo a partir do menu principal.
+
+[dlgNewPlaythroughUnlocked]
+Caption=Novo modo de jogo desbloqueado!
+Prompt=Parabéns! Você desbloqueou o modo %PLAYTHROUGH_NAME%!\n\n%PLAYTHROUGH_DESC%\n\nVocê pode alterar o modo de jogo a partir do menu principal.
+
+[dlgNewPlaythroughAlmostUnlocked]
+Caption=Parabéns!
+Prompt=Para desbloquear o modo %PLAYTHROUGH_NAME% você deve completar todas as missões da história principal.
+
+[dlgNoDeviceSelected]
+Caption=No Storage Device Selected
+Prompt=You have not chosen a valid storage device. If you do not choose one, your progress will not be saved. Do you wish to choose a storage device?
+
+[dlgNoGamesFound]
+Caption=Procurar partida
+Prompt=Nenhuma partida foi encontrada.
+
+[dlgNoLinkConnection]
+Caption=Sem conexão de rede
+Prompt=Essa funcionalidade não está disponível sem uma conexão de rede válida.
+
+[dlgNoLIVEPrivilege]
+Caption=Acesso restrito
+Prompt=Essa funcionalidade requer que todos os jogadores estejam conectados à Xbox LIVE e tenham privilégios multijogador.
+
+[dlgNoSystemLinkPrivilege]
+Caption=Acesso restrito
+Prompt=Essa funcionalidade requer que você esteja logado com um perfil de jogador.
+
+[dlgNoOnlineGamesFound]
+Caption=<StringAliasMap:Term_Online>
+Prompt=Nenhuma partida foi encontrada.
+
+[dlgNoPSNPrivilege]
+Caption=Acesso restrito
+Prompt=Online service is disabled on your Sony Entertainment Network account due to parental control restrictions.
+
+[dlgNoPurchasePrivilege]
+Caption=Acesso restrito
+Prompt=Access to the PlayStation®Store is restricted because of a mismatch between your Sony Entertainment Network account language and the system language. Please change your local system language settings to proceed.
+
+[dlgNotLoggedIn]
+Caption=Não logado
+Prompt=Você não está logado com um perfil de jogador. Seus progressos e ajustes não serão salvos até que você se logue e tenha pelo menos um dispositivo de armazenamento.
+
+[dlgReturnToTitleForDlcInstall]
+Caption=Conteúdo adicional
+Prompt=Há um conteúdo adicional disponível para ser instalado.  Deseja instalá-lo agora?\n\nSelecionando 'Sim' você será enviado até a tela título.
+
+[dlgNotLoggedInForFriends]
+Caption=Não logado
+Prompt=Você não está logado online. Assim não é possível localizar seus amigos.
+
+[dlgNotLoggedInForLAN]
+Caption=Não logado
+Prompt=Pelo menos um dos controles associado a um perfil de jogador não está logado. Para continuar,  todos os perfis de jogador devem estar logados.
+
+[dlgNotLoggedInForLIVE]
+Caption=Não logado
+Prompt=At least one controller has a gamer profile that is not signed in. To play online games, you must have a Xbox LIVE Gold Membership and be signed in to Xbox LIVE.
+
+[dlgUninstalledDlcForLIVE]
+Caption=Downloadable Content
+Prompt=You have downloadable content that has not been installed.  You must install the downloadable content before you can create an online game.
+
+[dlgMarketplaceNotEnumeratedForLIVE]
+Caption=Downloadable Content
+Prompt=Enumerating the marketplace content was unsuccessful.  
+
+[dlgOfflineModeWarning]
+Caption=<StringAliasMap:Term_Network_Offline>
+Prompt=Ocorreu um problema ao alterar as opções de rede.  Agora sua partida está no modo <StringAliasMap:Term_Network_Offline>.  Para jogar com seus amigos, altere suas opções de rede.
+
+[dlgOnlineGameSearching]
+Caption=Procurando
+Prompt=Procurando por partidas de <StringAliasMap:Term_Online>...
+
+[dlgOnlineSessionRequired]
+Caption=Gerador de Partidas
+Prompt=Para iniciar o Gerador de Partidas, altere suas opções de rede para <StringAliasMap:Term_Online>.
+
+[dlgInviteSent]
+Caption=Convite enviado
+Prompt=Convite de jogo enviado.
+
+[dlgPrestigeResetChallenges]
+Caption=Restaurar desafios?
+Prompt=Gostaria de restaurar os progressos dos seus desafios?
+
+[dlgProfileRemoved]
+Caption=Perfil de jogador removido
+Prompt=You have removed your gamer profile's storage device. Either re-insert the storage device or sign out of your gamer profile and be returned to the title screen.
+
+[dlgPS3BootInvite]
+Caption=Not Connected
+Prompt=You must connect to PlayStation®Network to finish accepting the game invitation.
+
+[dlgQuit]
+Caption=Sair de Borderlands 2?
+Prompt=Tem certeza que deseja sair de Borderlands 2?
+TipNoSave=Todos os progressos não salvos serão perdidos.
+TipSave=Todos os progressos serão salvos.
+
+[dlgReadyLobby]
+Cancel=Permanecer no ponto de encontro
+Caption=Entrar na partida?
+Enter=Entrar na partida
+Prompt=A partida já começou.  Deseja sair do ponto de encontro e começar a jogar com o personagem selecionado?
+
+[dlgResolution]
+Caption=Confirmar resolução
+Prompt=Deseja manter essa resolução?\n\nA resolução será revertida em %TIME% segundos.
+Yes=Sim
+No=Não
+
+[dlgSavingOnQuit]
+Caption=Salvando
+Prompt=Salvando conteúdo. Por favor, não desligue o seu console.
+
+[dlgSavingOnQuitPS3]
+Caption=Saving
+Prompt=Saving game.  While the HDD access indicator is flashing, data is being saved.  Do not switch off the power during this time.  Please Wait.
+
+[dlgSelectSecondController]
+Caption=Selecionar Controle
+Prompt=Pressione <StringAliasMap:GFx_Accept> no controle do segundo jogador.
+
+[dlgSelectSecondControllerDuplicate]
+Caption=Selecionar controle
+Prompt=Esse controle já está em uso. Pressione <StringAliasMap:GFx_Accept> no controle do segundo jogador.
+
+[dlgSplitError]
+Caption=Não há jogadores suficientes
+Prompt=Você precisa se logar com dois controles para jogar no modo tela dividida.
+
+[dlgSplitErrorPS3]
+Caption=Não há jogadores suficientes
+Prompt=Por favor, conecte um segundo controle para jogar no modo tela dividida.
+
+[dlgStorageRemoved]
+Caption=Storage device removed
+Choose=Choose storage device
+Continue=Continuar
+Prompt=You have removed the in-use storage device and will lose any future progress if you do not choose a new one. What would you like to do?
+TipChoose=Choose a new storage device
+TipContinue=Continue without saving progress
+
+[dlgUnabletoConnect]
+Caption=Impossível conectar
+Prompt=A conexão com o anfitrião não pode ser estabelecida. Por favor, tente novamente.
+
+[dlgUnableToJoinForDlc]
+Caption=Impossível entrar
+Prompt=Você não pode se juntar ao anfitrião porque a versão do seu jogo é incompatível com a versão dele, ou o anfitrião possui um conteúdo adicional que você não tem.
+
+[dlgUnableToJoinNotJoinable]
+Caption=Impossível entrar
+Prompt=Você não pode se juntar ao anfitrião porque você não está mais em uma sessão de jogo que lhe permita entrar.
+
+[dlgValidatingSavegame]
+Caption=Validando dados de salvamento
+Prompt=Validando dados. Aguarde.
+
+[dlgConfirmSwitchSessionOnlineToLan]
+Caption=Permissões insuficientes
+Prompt=Você não tem permissões para jogar na Xbox LIVE. Joining this game will change the network options to a system link game. Would you like to join anyway?
+
+[dlgConfirmSwitchSessionOnlineToOffline]
+Caption=Não logado
+Prompt=Você precisa se logar com um perfil de jogador na Xbox LIVE Gold Membership, or as a guest, to play on Xbox LIVE. Joining this game will change the network options to offline. Would you like to join anyway?
+
+[dlgConfirmSwitchSessionLanToOffline]
+Caption=Não logado
+Prompt=Você deve estar logado para jogar partidas interconectadas. Se entrar nessa partida, as opções de rede serão desconectadas. Deseja entrar mesmo assim?
+
+[dlgLobbyConfirmCharacters]
+Caption=Confirmar personagem
+Prompt_NoSplitscreen=Iniciar o jogo com esse personagem?<br><br>%PLAYER0: %CHARACTER0
+Prompt_Splitscreen=Iniciar o jogo com esses personagens?<br><br>%PLAYER0: %CHARACTER0<br>%PLAYER1: %CHARACTER1
+Confirm=<StringAliasMap:GFx_Accept> Confirmar
+Cancel=<StringAliasMap:GFx_Cancel> Cancelar
+CharacterString=%NAME% NV. %LEVEL% %CLASS%
+NewCharacterString="Novo(a) %CLASS%"
+DefaultPlayerName=Jogador
+
+[dlgOptionsRequireRestart]
+Caption=Reinício necessário
+Prompt=Algumas alterações nas opções requerem que o jogo seja reiniciado.
+
+[dlgThankPreviousGamePlayers]
+Caption=Obrigado!
+Prompt=Encontramos uma partida salva do jogo Borderlands original! Obrigado por jogar! Como recompensa, desbloqueamos um formato de cabeça e um modelo corporal especiais para o seu personagem!
+
+[dlgLookingForPreviousGameData]
+Caption=Procurando...
+Prompt=Procurando por dados de salvamento do jogo Borderlands original. Por favor, aguarde...
+
+[dlgNoPreviousGameSavesFound]
+Caption=Nada encontrado
+Prompt=Nenhum dado de salvamento do jogo Borderlands original foi detectado. Se encontrados, os dados de salvamento originais de Borderlands podem desbloquear opções especiais em Borderlands 2.
+
+[dlgNewGoldenKeysAvailable]
+Caption=Nova chave dourada disponível
+Prompt=Você tem %NUMKEYS% chave(s) dourada(s) disponível(is) para uso! Para usar uma chave dourada, visite o cofre misterioso em Santuário. Quanto maior o seu nível, melhor a recompensa!
+
+[FEcontrollers]
+Back=VOLTAR
+Caption=COMANDOS
+Layout=LEIAUTE
+
+[FEcontrolspc]
+Back=VOLTAR
+Caption=CONTROLES
+Keys=TECLAS
+
+[FELoadChar]
+Caption=Carregar personagem
+
+[FEMain]
+Caption=Menu principal
+Credits=Créditos
+MP=Cooperativo online
+Options=Opções
+Quit=Sair
+SP=Único jogador
+Split=Tela dividida
+
+[FEMP]
+Caption=Cooperativo online
+LanCaption=LAN
+OnlineCaption=Online
+SystemLinkCaption=Link de sistema
+XboxLiveCaption=Xbox LIVE
+Lan=LAN
+Online=online
+SystemLink=Link de sistema
+XboxLive=Xbox LIVE
+
+[FEMPLan]
+Caption%360%=Link de sistema
+Caption=Opções de LAN
+Host=Hospedar partida
+Join=Entrar na partida
+
+[FEMPOnline]
+Caption%360%=Xbox LIVE
+Caption=Opções online
+CreateMatch=Criar partida
+CreatePrivate=Criar partida privada
+CustomMatch=Explorar partidas
+Friends=Amigos
+Host=Hospedar partida pública
+HostPrivate=Hospedar partida privada
+Join=Entrar na partida
+LiveParty=Buscar Xbox LIVE Party
+Logout=Logout
+QuickMatch=Partida rápida
+
+[FENewChar]
+Brick=Mechromancer
+Caption=Novo personagem (TEMP)
+Lilith=Sereia
+Mordecai=Assassino
+Roland=Soldado
+
+[FEOptions]
+AV=Áudio/Vídeo
+Caption=Menu de opções
+Code=Inserir código
+Controls=Comandos
+controlspc=Controles
+Storage=Alterar dispositvo de armazenamento
+Game=Opções de jogo
+
+[FEQuickMatchResults]
+Caption=Partida rápida
+
+[FESelChar]
+Caption=Selecionar personagem
+LoadChar=Personagem existente
+NewChar=Novo personagem
+
+[FEServerList]
+Caption%360%=Lista de partidas
+Caption=Lista de jogos
+
+[friendsbar]
+ButtonBarGamepad=<StringAliasMap:GBA_JoinFriend> Entrar <StringAliasMap:GBA_InviteFriend> Convidar <StringAliasMap:GBA_AddFriend> Adicionar amigo <StringAliasMap:GBA_RemoveFriend> Remover amigo <StringAliasMap:GFx_Cancel> Cancelar
+ButtonBarGamepadPS3=<StringAliasMap:GBA_JoinFriend> Entrar <StringAliasMap:GBA_InviteFriend> Convidar <StringAliasMap:GFx_Cancel> Cancelar
+ButtonBarKB=[<StringAliasMap:GBA_JoinFriend>] Entrar [<StringAliasMap:GBA_InviteFriend>] Convidar [<StringAliasMap:GBA_AddFriend>] Adicionar amigo [<StringAliasMap:GBA_RemoveFriend>] Remover amigo <StringAliasMap:GFx_Cancel> Cancelar
+JoinBar=<StringAliasMap:GBA_JoinFriend> ENTRAR
+InviteBar=<StringAliasMap:GBA_InviteFriend> CONVIDAR
+AddFriendBar=<StringAliasMap:GBA_AddFriend> ADICIONAR AMIGO
+RemoveFriendBar=<StringAliasMap:GBA_RemoveFriend> REMOVER AMIGO
+MainFriendBar="%s1 <StringAliasMap:GFx_Cancel> CANCELAR"
+
+[FriendsList]
+FriendsString=Amigos
+PS3Message=As alterações dos amigos realizadas através do menu XMB&#8482; não surtirão efeito até o próximo login.
+
+[HUD]
+card_e=L
+card_n=N
+card_ne=ND
+card_nw=NO
+card_s=S
+card_se=SD
+card_sw=SO
+card_w=O
+ChapterHeader=CAPÍTULO %d
+Duel=DUELO!
+EnemyLevelAbbreviation=NV
+Init_Boot=SEQUÊNCIA DE INICIALIZAÇÃO
+Init_Compass=INTERFACE DE MAPA DIGITAL
+Init_Exp=MÓDULO DE PONTOS DE EXPERIÊNCIA
+Init_Grenade=MÓDULO DE VISUALIZAÇÃO DE GRANADA
+Init_Health=MÓDULO DE VISUALIZAÇÃO DE SAÚDE
+Init_Init=INICIALIZANDO...
+Init_Objective=INDICADOR DE OBJETIVO
+Init_Ready=PRONTO...
+Init_Shield=MÓDULO DE VISUALIZAÇÃO DE ESCUDO
+Init_Skill=MÓDULO DE VISUALIZAÇÃO DE HABILIDADE
+Init_Weapon=MÓDULO DE VISUALIZAÇÃO DE ARMA
+LevelUp=NÍVEL EVOLUÍDO!
+LevelUpAbbreviation=Nv
+PanScreen=Tela panorâmica
+ToolTipsGamepad_CannotUse=<StringAliasMap:Action.Use> IMPOSSÍVEL USAR
+ToolTipsGamepad_Computer=<StringAliasMap:Action.Use> USAR
+ToolTipsGamepad_Depleted=ENERGIA ESGOTADA. RECARREGANDO...
+ToolTipsGamepad_Drive=<StringAliasMap:Action.Use> ASSENTO DO PILOTO
+ToolTipsGamepad_Flip=<StringAliasMap:Action.Use> GIRAR
+ToolTipsGamepad_Full=CHEIO
+ToolTipsGamepad_Heal=<StringAliasMap:Action.Use> CURAR
+ToolTipsGamepad_LB_360=LB
+ToolTipsGamepad_LB_PS3=L1
+ToolTipsGamepad_LT_360=<StringAliasMap:Action.Aim>
+ToolTipsGamepad_LT_PS3=<StringAliasMap:Action.Aim>
+ToolTipsGamepad_OutOfAmmo=SEM MUNIÇÃO
+ToolTipsGamepad_Pickup=<StringAliasMap:Action.Use> PEGAR
+ToolTipsGamepad_RB_360=RB
+ToolTipsGamepad_RB_PS3=R1
+ToolTipsGamepad_RT_360=<StringAliasMap:Action.Fire>
+ToolTipsGamepad_RT_PS3=<StringAliasMap:Action.Fire>
+ToolTipsGamepad_Reload=<StringAliasMap:Action.Reload> RECARREGAR
+ToolTipsGamepad_Shoot=<StringAliasMap:Action.Use> ASSENTO DO ATIRADOR
+ToolTipsGamepad_Shop=<StringAliasMap:Action.Use> LOJA
+ToolTipsGamepad_Smash=<StringAliasMap:Action.Melee> GOLPEAR
+ToolTipsGamepad_Talk=<StringAliasMap:Action.Use> FALAR
+ToolTipsGamepad_Use=<StringAliasMap:Action.Use> USAR
+ToolTipsKB_CannotUse=[<StringAliasMap:Action.Use>] IMPOSSÍVEL USAR
+ToolTipsKB_Computer=[<StringAliasMap:Action.Use>] USAR
+ToolTipsKB_Depleted=ENERGY DEPLETED. RECARREGANDO...
+ToolTipsKB_Drive=[<StringAliasMap:Action.Use>] ASSENTO DO PILOTO
+ToolTipsKB_Flip=[<StringAliasMap:Action.Use>] GIRAR
+ToolTipsKB_Full=CHEIO
+ToolTipsKB_Heal=[<StringAliasMap:Action.Use>] CURAR
+ToolTipsKB_LB_PC=<StringAliasMap:Action.ActionSkill>
+ToolTipsKB_LT_PC=<StringAliasMap:Action.Aim>
+ToolTipsKB_OutOfAmmo=SEM MUNIÇÃO
+ToolTipsKB_Pickup=[<StringAliasMap:Action.Use>] PEGAR
+ToolTipsKB_RB_PC=<StringAliasMap:Action.Grenade>
+ToolTipsKB_RT_PC=<StringAliasMap:Action.Fire>
+ToolTipsKB_Reload=[<StringAliasMap:Action.Reload>] RECARREGAR
+ToolTipsKB_Shoot=[<StringAliasMap:Action.Use>] ASSENTO DO ATIRADOR
+ToolTipsKB_Shop=[<StringAliasMap:Action.Use>] LOJA
+ToolTipsKB_Smash=[<StringAliasMap:Action.Use>] GOLPEAR
+ToolTipsKB_Talk=[<StringAliasMap:Action.Use>] FALAR
+ToolTipsKB_Use=[<StringAliasMap:Action.Use>] USAR
+WorldDiscovery=Você descobriu:
+
+[InvBar]
+DropBar=<StringAliasMap:GFx_Y> Soltar
+EquipBar=<StringAliasMap:GFx_X> Equipar
+MainButtonBar="%s1   %s4   %s3   %s6   %s2   %s5"
+Close=<StringAliasMap:GFx_Cancel> Fechar
+Cancel=<StringAliasMap:GFx_Cancel> Cancelar
+SaveScreenBar=Salvar captura de tela
+SortBar=<StringAliasMap:GBA_SortInvForward>/<StringAliasMap:GBA_SortInvBackward> Organizar
+TrashFaveBar=<StringAliasMap:XboxTypeS_LeftThumbstick> Lixo/Favorito
+InspectBar=<StringAliasMap:InspectItem> Ver
+UnequipBar=<StringAliasMap:GFx_X> Desequipar
+UseBar=<StringAliasMap:GFx_X> Usar
+SelectBar=<StringAliasMap:GFx_X> Selecionar/Comparar
+SwapBar=<StringAliasMap:GFx_X> Alternar
+
+[KeyBindings]
+Caption=Vínculos de tecla
+
+[Lobby]
+AddFriend=Adicionar aos amigos
+Area=Selecionar área inicial
+Caption=Ponto de encontro
+Difficulty=Selecionar modo de jogo
+Done=Feito
+ExistingChar=Personagem existente
+Gamercard=Visualizar cartão de jogador
+Header=JOGADORES
+Invite=Convidar para a Xbox LIVE Party
+Kick=Expulsar jogador
+Mute=<StringAliasMap:GBA_MutePlayer> Alternar silêncio de jogador
+NewBerserker=Novo Berserker
+NewGameArea=Borderlands 2
+NewHunter=Novo Caçador
+NewSiren=Nova Sereia
+NewSoldier=Novo Soldado
+P1=Jogador 1
+P2=Jogador 2
+PlayerInfo=Visualizar cartão de jogador
+Ready=Pronto
+SelChar=Selecionar personagem
+Play=Jogar
+Start=Iniciar partida
+UnReady=Não preparado
+NoPlayer=Sem jogador
+
+[MapBar]
+ButtonBarGamepad=<StringAliasMap:GFx_Accept> Ponto de rota   <StringAliasMap:XboxTypeS_LeftTrigger><StringAliasMap:XboxTypeS_RightTrigger> Zoom   <StringAliasMap:GFx_Y> Legenda   <StringAliasMap:GFx_Cancel> Fechar
+ButtonBarKB=<StringAliasMap:GFx_Accept> Ponto de rota   [+/-] Zoom   <StringAliasMap:GFx_Y> Legenda   <StringAliasMap:GFx_Cancel> Fechar
+
+[MiscText]
+HostName=Nome do servidor
+HostNamePrompt=Insira um nome para o servidor
+Password=PASSWORD
+PasswordCl=Insira um password para acessar o servidor.
+PasswordSv=Insira um password para o servidor.
+MouseKeyboard=Mouse / Teclado
+PressStick="PRESSIONE : "
+Defaults=Restaurar padrões
+Logout=Logout
+
+[missions]
+ActionBuzzword="Ação!"
+AdLabel=Anúncio
+AdventureBuzzword="Aventura!"
+Briefing_TurnIn="Entregar"
+CanFindItBuzzword="Consegue encontrar?"
+Completed=" (CONCLUÍDA)"
+DetailsTitle=DETALHES
+diff_hard=DIFICULDADE: DIFÍCIL
+diff_impossible=DIFICULDADE: IMPOSSÍVEL
+diff_normal=DIFICULDADE: NORMAL
+diff_tough=DIFICULDADE: DUREZA
+diff_trivial=DIFICULDADE: TRANQUILA
+Divider_Completed=MISSÕES CONCLUÍDAS
+Divider_InProgress=EM CURSO
+Divider_New=NOVAS MISSÕES
+Divider_TurnIn=PREPARAR
+Divider_TurnInHUD=PREPARAR
+Divider_Failed=FRACASSADAS
+TimeRemaining=Tempo:
+Defend=Defender
+Health=Saúde
+OptionalMission=MISSÃO\nSECUNDÁRIA
+Or=ou
+ExplorePandoraAdTitle="Explore Pandora!"
+MissionComplete="TRABALHO CONCLUÍDO!"
+MissionGiverTitle=CONTRATANTE
+MissionHeader=MISSÕES
+MissionInterface=Interface da missão
+MissionLevel=NÍVEL: %d
+MissionSubtitle=Bem-vindo ao Painel Público de Recompensas
+moreScrollBar=MAIS
+NoMissionsDescHeader=SEM MISSÕES
+NoMissionsListText=Sem missões
+NoMissionsString=Não existem missões disponíveis.\n\nPandora é um lugar maravilhoso mas, mantenha sempre os olhos abertos.\n\nSempre existem oportunidades.
+NoRewardExplanation_Complete=Você completou essa missão em uma partida anterior e já recebeu a sua recompensa.
+NoRewardExplanation_NotStarted=Você entrou na partida depois que a missão já tinha sido concluída e por isso, não tem o direito de receber a sua recompensa.
+NoRewardTitle=SEM RECOMPENSA
+Repeatable=" (REPETÍVEL)"
+RewardsTitle=RECOMPENSAS
+RewardTitle=RECOMPENSA
+StoryMission=OBJETIVO PRINCIPAL
+VaultOutThereAdTitle="A Sepultura está lá fora."
+XPRewards=EXP: %d
+XPTitle=EXP
+
+[LoadCharacter]
+MainCaption=Carregar personagem
+NameCaption=Nome
+NewNameFormat=<font color="#B9E0C2">Criar novo personagem %class%</font>
+LevelCaption=Nível
+LevelFormat=NV. %level%
+ClassCaption=Classe
+SaveDateCaption=Salvo
+PlayedTimeCaption=Tempo
+CurrentMissionCaption=Missão atual
+PlotMissionCaption=Missão pincipal
+PlaythroughFormat=<font color="#FFFFFF">Modo %PLAYTHROUGH_NAME%</font>
+Tooltip_Select=<StringAliasMap:GFx_Accept> Selecionar
+Tooltip_Close=<StringAliasMap:GFx_Cancel> Voltar
+Tooltip_Delete=<StringAliasMap:CharSelectDelete> Apagar
+Tooltip_ChooseStorage=<StringAliasMap:GFx_X> Escolher dispositivo de armazenamento
+LoadPS3Char=Escolher um personagem existente...
+
+[NewUMovie]
+FastTravelLocationsString=LOCAIS
+FastTravelTabString=VIAGEM EXPRESSA
+FastTravelVisitBeautifulString=Visitar ponto de interesse
+FastTravelYouAreHereString=VOCÊ ESTÁ AQUI
+
+[Pause]
+Audio=Áudio
+Back=Voltar
+Controls=Controles
+Exit=Sair
+Friends=Convidar amigos
+Live=Convidar para a Xbox LIVE Party
+Lobby=Visualizar ponto de encontro
+Main=Principal
+QuitPC=Sair de Borderlands 2
+Resume=Retomar
+Title=PAUSA
+YourCode=Seu código
+PromoCode=Código promocional
+SubmitCode=Submeter código
+Achievements=Conquistas
+
+[pname]
+ButtonBarGamepad=<StringAliasMap:GFx_Accept> Selecionar     <StringAliasMap:GFx_Cancel> Confirmar e sair
+ButtonBarKB=<StringAliasMap:GFx_Accept> Selecionar     <StringAliasMap:GFx_Cancel> Confirmar e sair
+EnterName=INSERIR NOME
+EnterNameDesc=Insira um nome para o seu personagem. Isso será utilizado apenas para identificar as partidas salvas.
+Header=ESTAÇÃO NOVO-EU
+NameEntryTitle="Nome do jogador"
+NamePrompt="Insira seu nome de jogador"
+RespecSkillTree=RESTAURAR: %s%d
+SelectColor=SELECIONAR COR
+SubHeader=PERFIL DE DNA
+
+[regstat]
+AugmentButtonBarGamepad=<StringAliasMap:GFx_Accept> Usar ponto   <StringAliasMap:GFx_Cancel> Fechar
+AugmentButtonBarKB=<StringAliasMap:GFx_Accept> Usar ponto   <StringAliasMap:GFx_Cancel> Fechar
+MainButtonBarGamepad=<StringAliasMap:GFx_Accept> Selecionar   <StringAliasMap:GFx_Cancel> Fechar
+MainButtonBarKB=<StringAliasMap:GFx_Accept> Selecionar   <StringAliasMap:GFx_Cancel> Fechar
+RegHeader=REGISTRO
+TravelButtonBar=<StringAliasMap:GFx_Accept> Viajar   <StringAliasMap:GFx_Cancel> Fechar   <StringAliasMap:GFx_Y> Organizar
+
+[storage]
+TakeBar=<StringAliasMap:GFx_Accept> Selecionar
+PlaceBar=<StringAliasMap:GFx_Accept>
+SwapBar=<StringAliasMap:GFx_Accept> Alternar
+InvAddTip=Adicionar ao inventário
+
+[TitleMenu]
+PS=Pressione o botão <StringAliasMap:XboxTypeS_Start>
+PSKB=Versão brasileira Tribo Gamer<br>Pressione qualquer tecla
+PSPS3=Pressione o botão <StringAliasMap:XboxTypeS_Start>
+MainBar=<StringAliasMap:GFx_Accept> Selecionar
+SelBackBar=<StringAliasMap:GFx_Accept> Selecionar	<StringAliasMap:GFx_Cancel> Voltar
+OkCancelBar=<StringAliasMap:GFx_Accept> OK	<StringAliasMap:GFx_Cancel> Cancelar
+BackBar=<StringAliasMap:GFx_Cancel> Voltar
+BindBackBar=<StringAliasMap:GFx_Accept> Selecionar	<StringAliasMap:GFx_Delete> Desvincular	<StringAliasMap:GFx_Cancel> Voltar
+
+[trainingdialog]
+TrainingOkay=<StringAliasMap:GFx_Accept> OK
+TrainingOkay_PC=[Click] / <StringAliasMap:GFx_Accept> OK
+TrainingStatus=Dispositivo ECHO %1
+TrainingStatus_PC=Dispositivo ECHO [%1]/[%2]
+TrainingWait=Aguarde...
+QuickSelectTraining_Console=Use seu <StringAliasMap:XboxTypeS_DPad> para selecionar rapidamente uma arma.\n\n 
+QuickSelectTraining_PC=
+SwappingWeaponsTraining_Console=<StringAliasMap:Action.NextWeapon>
+SwappingWeaponsTraining_PC=<StringAliasMap:Action.NextWeapon> e <StringAliasMap:Action.PreviousWeapon>
+
+
+[missionreward]
+AcceptReward=<StringAliasMap:GFx_Accept> Aceitar
+
+[vending]
+BuybackBar=<StringAliasMap:GFx_Accept> Comprar de volta
+BuyBar=<StringAliasMap:GFx_Accept> Comprar
+CancelBar=<StringAliasMap:GFx_Cancel> Cancelar
+CompareBar=<StringAliasMap:GFx_X> Comparar
+ConfirmButtonBarGamepad=<StringAliasMap:GFx_Accept> Sim     <StringAliasMap:GFx_Cancel> Não
+ConfirmButtonBarKB=<StringAliasMap:GFx_Accept> Sim     <StringAliasMap:GFx_Cancel> Não
+FeaturedItem=ITEM EM DESTAQUE
+MainButtonBarGamepad=<StringAliasMap:GFx_Accept> Selecionar     <StringAliasMap:GFx_Cancel> Fechar
+MainButtonBarKB=<StringAliasMap:GFx_Accept> Selecionar     <StringAliasMap:GFx_Cancel> Fechar
+MainVendBar="%s1 %s2    <StringAliasMap:GFx_Cancel> Fechar %s3"
+SellBar=<StringAliasMap:GFx_Accept> Vender
+ShopButtonBarGamepad=<StringAliasMap:GFx_Accept> Selecionar     <StringAliasMap:GFx_Y> Girar inventário     <StringAliasMap:GFx_X> Comprar/Vender     <StringAliasMap:GFx_Cancel> Fechar
+ShopButtonBarKB=<StringAliasMap:GFx_Accept> Selecionar     <StringAliasMap:GFx_Y> Girar inventário     <StringAliasMap:GFx_X> Comprar/Vender     <StringAliasMap:GFx_Cancel> Fechar
+SortBar=<StringAliasMap:GBA_SortInvForward>/<StringAliasMap:GBA_SortInvBackward> Organizar
+SellTrashBar=<StringAliasMap:SellTrash> Lixo
+
+[xuse]
+ButtonBarGamepad=<StringAliasMap:GFx_X> Usar
+ButtonBarKB=
+
+[dlgRecievedFriendInvite]
+Caption=Convite para amigo
+Prompt=gostaria de adicioná-lo como amigo.  Deseja ser amigo dessa pessoa?
+
+[dlgReceivedFriendGameInvite]
+Caption=Convite para jogo
+Prompt=te convidou para entrar na sua partida.  Você aceita?
+
+[dlgGameInviteExpired]
+Caption=Convite expirado
+Prompt=O convite selecionado já expirou.
+
+[dlgAddFriend]
+Caption=Adicionar amigo
+Prompt=Escreva o nome da pessoa que deseja adicionar na sua lista de amigos.
+EditPrompt=
+
+[dlgAddFriendComplete]
+Caption=Adicionar amigo
+Prompt=Seu convite de amizade foi enviado. Essa pessoa não aparecerá na sua lista até que o seu convite seja aceito.
+
+[dlgAddFriendFailed]
+Caption=Adicionar amigo
+Prompt=Erro ao enviar convite de amizade. Por favor, assegure-se de ter escrito o nome corretamente e tente novamente.
+
+[dlgRemoveFriend]
+Caption=Remover amigo
+Prompt=Tem certeza que deseja remover esse amigo?
+
+[dlgInviteFriend]
+Caption=Convidar amigo
+Prompt=Tem certeza que deseja convidar esse amigo para sua partida?
+
+[dlgFriendOffline]
+Caption=Amigo Offline
+Prompt=O amigo selecionado está offline.
+
+[dlgGameNotJoinable]
+Caption=Impossível entrar
+Prompt=Não é possível entrar na partida do seu amigo.
+
+[dlgNotEnoughMoneyToRespec]
+Caption=Grana insuficiente
+Prompt=Você não tem dinheiro suficiente para restaurar suas habilidades nesse momento.
+
+[dlgCorruptDlc]
+Caption=Arquivo corrompido
+Prompt=Alguns conteúdos adicionais estão corrompidos e não podem ser carregados.
+
+[dlcCorruptDlcMulti]
+Caption=Arquivo(s) corrompido(s)
+Prompt=Os seguintes pacotes de conteúdo adicional estão corrompidos e não podem ser carregados:\n\n%PACKAGENAMES%
+
+[dlgUpdatePatchRequired]
+Caption=Pacote requerido
+Prompt=Alguns dos seus conteúdos adicionais requerem uma versão mais recente do jogo.  Por favor, instale a última atualização do jogo.
+
+[dlgNewDlc]
+Caption=Conteúdo adicional
+Prompt=Você tem instalado o conteúdo adicional "%DLCPACKAGE%".\n\nÉ possível viajar para essa nova área, selecionado "%DLCOUTPOST%" em qualquer Estação de Viagem Expressa! Você não poderá viajar até essa nova área caso esteja conectado a um anfitrião que não possua esse conteúdo adicional.\nSe estiver jogando Borderlands, você terá que sair para o menu principal para acessar esse novo conteúdo.
+
+[dlgPCUpdateAvailable]
+Caption=Atualizações requeridas
+Prompt=A versão mais recente do jogo é requerida para poder jogar online.  Clique Sim para iniciar o download do pacote.  Quando o download terminar, por favor saia do jogo e instale o pacote.
+
+[dlgRemovedDlcDependantMU]
+Caption=Conteúdo adicional
+Prompt=Você retornou à tela título porque seu dispositivo de armazenamento que continha o conteúdo adicional foi removido.
+
+[dlgClientOutdated]
+Caption=Falha de conexão
+Prompt=A partida que você está tentando entrar usa uma versão incompatível do jogo.  Por favor, tente atualizar a versão do seu jogo.
+
+[dlgServerOutdated]
+Caption=Falha de conexão
+Prompt=O anfitrião ao qual você está tentando se conectar está usando uma versão mais antiga do jogo.
+
+[dlgDlcOutpostNotInstalled]
+Caption=Conteúdo adicional
+Prompt=Essa partida foi salva em um conteúdo adicional não disponível nesse sistema.  Você iniciará em Southern Shelf - Windshear Waste após o jogo ser carregado.
+
+[dlgDlcUnavailableToPartyMember]
+Caption=Conteúdo adicional
+Prompt=Um ou mais jogadores não têm o conteúdo adicional ao qual essa partida foi salva, e portanto, serão excluídos caso você continuar com essa partida.\n\nContinuar mesmo assim?
+
+[dlgNotAllPlayersCanJoinInvite]
+Caption=Falha de conexão
+Prompt=Nem todos os jogadores ativos estão logados ou têm permissão para jogar partidas online.
+
+[dlgNotEnoughSpaceInInvite]
+Caption=Falha de conexão
+Prompt=Não há espaço para todos os jogadores ativos na partida a qual você está tentando entrar.
+
+[dlgInviteFailed]
+Caption=Falha de conexão
+Prompt=Erro de conexão com o anfitrião. Você não pode entrar na partida.
+
+[dlgConfirmKickPlayersForInvite]
+Caption=Atenção
+Prompt=Um ou mais jogadores já estão jogando essa partida.  Deseja eliminá-los e continuar?
+
+[dlgConfirmKickNetworkedPlayersForInvite]
+Caption=Atenção
+Prompt=Ao fazer isso, todos os jogadores da rede serão desconectados. Deseja continuar?
+
+[dlgVSSTeleportFailed]
+Caption=Estação veicular
+Prompt=O veículo encontra-se em um local não seguro. Teletransporte cancelado.
+
+[dlgVSSInUse]
+Caption=Estação veicular em uso
+Prompt=Outro jogador está usando a estação veicular nesse momento. Por favor, aguarde.
+
+[dlgVSSNoVehicles]
+Caption=Veículos não disponíveis
+Prompt=Não há veículos disponíveis no momento.
+
+[dlgVSSPleaseWait]
+Caption=Aguarde
+Prompt=Aguarde...
+
+[dlgVSSProcessingRequest]
+Caption=Processando requisição
+Prompt=Processando requisição de alteração de veículo. Por favor, aguarde...
+
+[dlgVSSPlayersMustExit]
+Caption=Impossível trocar de veículo
+Prompt=Esse tipo de veículo não pode ser alterado. Outro jogador pode estar utilizando esse veículo.
+
+[TopLevelMenu]
+NewGame=NOVO JOGO
+
+[CharacterSelect]
+ActionAbilityHeader=Habilidade de ação:
+PreferredWeaponHeader=Estilo de combate:
+PartySelectionsHeader=Seleção de personagem
+PlayerSelectionIndicatorLabel1=J1
+PlayerSelectionIndicatorLabel2=J2
+PlayerSelectionIndicatorLabel3=J3
+PlayerSelectionIndicatorLabel4=J4
+ConfirmCaption=Confirmar
+ConfirmButtonLabel=Confirmar personagem
+LoadingPanelCaption=Carregando...
+TooltipPlayerAppendP1="(J1)"
+TooltipPlayerAppendP2="(J2)"
+TooltipSelectTemplate=<StringAliasMap:GFx_Accept> %1 %2
+TooltipSelect=Selecionar
+TooltipPurchase=Adquirir
+TooltipSelectClassSuffix=Classe
+TooltipSelectHeadSuffix=Formato de Cabeça
+TooltipSelectSkinSuffix=Modelo Corporal
+TooltipBack=<StringAliasMap:GFx_Cancel> Voltar
+TooltipQuit=<StringAliasMap:GFx_Cancel>Sair
+TooltipLoadCharacter=<StringAliasMap:SelectCharacter> Carregar personagem
+
+[UBMGameOver]
+Localized_Is=está
+Localized_Dead=MORTO
+GameOverMessage=*(fim de jogo, cara)
+TimePlayedHeader=TEMPO DE JOGO:
+PlayerLevelHeader=NÍVEL DE JOGADOR:
+MissionsCompleteHeader=MISSÕES CONCLUÍDAS:
+ChallengesCompleteHeader=DESAFIOS CONCLUÍDOS:
+FavoriteManufacturerHeader=FABRICANTE FAVORITO:
+FavoriteWeaponTypeHeader=TIPO DE ARMA FAVORITA:
+KilledByHeader=MORTO POR:
+TooltipsGamepad=<StringAliasMap:GFx_Accept> Continuar
+TooltipsKB=<StringAliasMap:GFx_Accept> Continuar
+FormattedTimePlayed=%1:%2:%3
+FormattedCharacterLevel=%1
+FormattedMissionsComplete=%1%
+FormattedChallengesComplete=%1%
+FormattedKilledBy=%1 L%
+
+[WeaponTypes]
+Pistol=Pistola
+Shotgun=Escopeta
+SMG=SMG
+AssaultRifle=Fuzil
+SniperRifle=Rifle Sniper
+Launcher=Lançador
+ExtraWeapon1=Arma Extra
+ExtraWeapon2=Arma Extra
+ExtraWeapon3=Arma Extra
+ExtraWeapon4=Arma Extra
+
+[DamageTypes]
+Incendiary=de Fogo
+Shock=Elétrica
+Explosive=Explosiva
+Corrosive=Corrosiva
+Impact=de Impacto
+Healing=Curativa
+Amp=Amp
+
+[MissionHelp]
+EquipMissionWeapon=Empunhar arma da missão
+EquipWeaponType=Equipar %w
+EquipDamageType=Equipar arma %d
+EquipWeaponTypeWithDamageType=Equipar %d %w
+MissionRestrictionTitle=Restrições da missão
+MissionRestrictionPrompt=Equipar
+
+[WillowScrollingListDataProviderFrontEnd]
+Play_NewGame=NOVO JOGO
+Play_Continue=CONTINUAR
+Matchmaking=GERADOR DE PARTIDAS
+LANBrowser=BUSCAR PARTIDAS
+Options=OPÇÕES
+Extras=EXTRAS
+CompatibilityPack=PACOTE DE COMPATIBILIDADE
+DLC=CONTEÚDO ADICIONAL
+Quit=SAIR
+Disconnect=DESCONECTAR
+Social=SOCIAL
+
+[WillowScrollingListDataProviderMatchmaking]
+CustomMatch=PROCURAR PARTIDAS
+QuickMatch=PARTIDA RÁPIDA
+
+[WillowScrollingListDataProviderExtras]
+WalkableMaps=MAPAS TRANSITÁVEIS
+BlockoutMaps=MAPAS ESCONDIDOS
+TestMaps=MAPAS DE TESTE
+Credits=CRÉDITOS
+GearboxAccount=CÓDIGO SHIFT
+Achievements=CONQUISTAS
+CustomerRewards=RECOMPENSAS POR LEALDADE
+
+[WillowScrollingListDataProviderSocial]
+Friends=AMIGOS
+Invitations=CONVITES
+PlayerSearch=PROCURAR NA SHiFT
+Identity=NOME DE USUÁRIO
+RecentlyMet=JOGOU RECENTEMENTE
+Blocked=BLOQUEADOS
+
+[WillowScrollingListDataProviderNetworkOptions]
+NetworkMode=MODO DE REDE
+CrossplayToggle=CROSS-PLAY SHiFT PC
+FriendSyncToggle=SINCRONIZAR AMIGOS AUTOMÁTICAMENTE
+CrossplayToggleOn=CROSS-PLAY SHiFT PC: ATIVADO
+FriendSyncToggleOn=SINCRONIZAR AMIGOS: ATIVADO
+CrossplayToggleOff=CROSS-PLAY SHiFT PC: OFF
+FriendSyncToggleOff=SINCRONIZAR AMIGOS: OFF
+
+[WillowScrollingListDataProviderDLC]
+Mancana=UHD TEXTURE PACK
+Anemone=COMMANDER LILITH...
+
+[MenuOptionDisplayNames]
+AimAssist="ASSISTENTE DE MIRA"
+AimAssistDesc=Com o assistente de mira ligado, sua mira centralizará nos alvos que você apontar.
+Duel="SOLICITAÇÃO DE DUELO"
+DuelDesc=Indica se você aceita propostas de duelo de outros jogadores.
+InvertLook="INVERTER VISÃO"
+InvertLookDesc=Inverta os controles ao olhar para cima e para baixo.
+InvertTurn="INVERTER GIRO"
+InvertTurnDesc=Inverta os controles ao girar para esquerda e para direita.
+InvertMove="INVERTER MOVIMENTO"
+InvertMoveDesc=Inverta os controles ao movimentar-se para frente e para trás.
+InvertStrafe="INVERTER ESQUIVA"
+InvertStrafeDesc=Inverta os controles ao esquivar-se para esquerda e para direita.
+InvertGamepadLook="INVERTER CÂMERA DE COMANDO"
+InvertGamepadLookDesc=Inverta os controles ao olhar para cima e para baixo.
+InvertGamepadTurn="INVERTER COMANDO DE GIRO"
+InvertGamepadTurnDesc=Inverta os controles ao girar para esquerda e para direita.
+InvertGamepadMove="INVERTER MOVIMENTO"
+InvertGamepadMoveDesc=Inverta os controles ao movimentar-se para frente e para trás.
+InvertGamepadStrafe="INVERTER COMANDO DE ESQUIVA"
+InvertGamepadStrafeDesc=Inverta os controles ao esquivar-se para esquerda e para direita.
+InvertMouseLook="INVERTER VISÃO COM MOUSE"
+InvertMouseLookDesc=Inverta o eixo Y da visão com o mouse.
+ControllerSensitivityX="SENSIBILIDADE DO EIXO X"
+ControllerSensitivityXDesc=Ajuste a sensibilidade dos comandos para a esquerda e para direita.
+ControllerSensitivityY="SENSIBILIDADE DO EIXO Y"
+ControllerSensitivityYDesc=Ajuste a sensibilidade dos comandos para cima e para baixo.
+Subtitles="LEGENDAS"
+SubtitlesDesc=Escolha se deseja que as legendas das falas apareçam ou não na parte inferior da tela.
+TextureQuality="QUALIDADE DAS TEXTURAS"
+TextureQualityDesc=Ajuste a qualidade da textura. Baixa qualidade implica em melhor performance.
+Trade="SOLICITAÇÕES DE NEGOCIAÇÃO"
+TradeDesc=Escolha se deseja que os outros usuários enviem solicitações de negociação para você.
+Training="MENSAGENS DE AJUDA"
+TrainingDesc=Escolha se deseja ver as mensagens que ensinam os macetes da mecânica de Borderlands 2. 
+AO="OCLUSÃO AMBIENTAL"
+AODesc=Trata-se do efeito visual que simula o modo como a luz se irradia na vida real. Desativá-lo implica em uma melhor performance.
+Shadow="QUALIDADE DAS SOMBRAS"
+ShadowDesc="Trata-se do tratamento das sombras projetadas pelas luzes do jogo. Baixa qualidade implica em melhor performance."
+OptionalVO="EXPRESSÕES DO PERSONAGEM"
+OptionalVODesc=Ative ou desative as piadas e comentários dos personagens.
+PerShotForceFeedback="VIBRAÇÃO POR DISPARO"
+PerShotForceFeedbackDesc=Ative ou desative a vibração dos controles ao disparar com armas de fogo.
+PlayerFOV="CAMPO DE VISÃO"
+PlayerFOVDesc=Expanda o campo de visão para que você possa apreciar melhor o ambiente do jogo.
+CrouchToggle="ALTERNAR AGACHADO"
+CrouchToggleDesc=Escolha se prefere agachar apertando apenas uma vez o botão ou se prefere mantê-lo pressionado.
+ZoomToggle="ALTERNAR PONTARIA"
+ZoomToggleDesc=Escolha se prefere mirar apertando apenas uma vez o botão ou se prefere mantê-lo pressionado.
+MouseSensitivity="SENSIBILIDADE DO MOUSE"
+MouseSensitivityDesc=Ajuste a sensibilidade do seu mouse.
+MouseSmoothing="SUAVIZAÇÃO DO MOUSE"
+MouseSmoothingDesc=Ative ou desative a suavização de movimento do mouse.
+ControllerPresets="COMANDO PRÉ DEFINIDO"
+ControllerPresetsDesc=""
+Anisotropy="FILTRO ANISOTRÓPICO"
+AnisotropyDesc=Trata-se de um efeito que reduz o visual borrado e melhora a definição dos detalhes. Baixos multiplicadores implicam em melhor performance.
+Bloom="AURA"
+BloomDesc=Trata-se de um efeito que produz bordas de luz ao redor dos objetos brilhantes. Desativá-lo implica em melhor performance.
+Brightness="BRILHO"
+BrightnessDesc=Ajuste o brilho do jogo (acredite, faz isso mesmo!).
+DOF="PROFUNDIDADE DE CAMPO"
+DOFDesc=Trata-se de um efeito visual que faz com os objetos e cenários mais distantes fiquem borrados. Desativá-lo implica em melhor performance.
+FXAA="FXAA"
+FXAADesc=Trata-se de um efeito visual que suaviza as bordas serrilhadas dos objetos. Desativá-lo implica em melhor performance.
+NumberOfDecals="BURACOS DE BALA"
+NumberOfDecalsDesc=Ajuste a presença de buracos de bala no cenário e a quantidade deles. Valores baixos implicam em melhor performance.
+DynamicShadows="SOMBRAS DINÂMICAS"
+DynamicShadowsDesc="Ajuste o comportamento das sombras em movimento. Desativá-lo implica em melhor performance."
+FoliageDistance="DISTÂNCIA DA FOLHAGEM"
+FoliageDistanceDesc=Ajuste o quão perto devem estar as árvores e a vegetação para que apareçam no cenário. Quanto menor for a distância, maior será a performance do jogo.
+Fullscreen="MODO JANELA"
+FullscreenDesc=Opte pelo modo de tela cheia, modo em janela ou o modo tela cheia em janela.
+GameDetail="DETALHES DO JOGO"
+GameDetailDesc=Ajuste os detalhes do jogo. Quanto mais baixo, melhor será a performance.
+LensFlares="REFLEXOS DE LUZ"
+LensFlaresDesc="Ajuste a incidências dos círculos luminosos quando se olha diretamente contra uma fonte de luz"
+Multisample="SUAVIZAÇÃO DE BORDAS"
+MultisampleDesc="Suavize as bordas serrilhadas dos objetos. Quanto mais baixo, melhor será a performance."
+MusicVolume="VOLUME DA MÚSICA"
+MusicVolumeDesc=Se você acha a música alucinante em Borderlands 2, então... som na caixa!
+Resolution="RESOLUÇÃO"
+ResolutionDesc=Ajuste a resolução da tela. Resoluções mais baixas implicam em melhor performance.
+SFXVolume="VOLUME DOS EFEITOS SONOROS"
+SFXVolumeDesc=Ajuste o volume dos tiros, passos, quedas e blá blá blá...
+TextureQuality="QUALIDADE DAS TEXTURAS"
+TextureQualityDesc=Ajuste a qualidade das texturas (dããrrrr). Baixa qualidade implica em melhor performance.
+PushToTalk="APERTAR PARA FALAR"
+PushToTalkDesc=Se estiver desligado, todos os sons que o seu microfone captar serão transmitidos constantemente (cuidado com o que vai falar hein, cabeção!).
+VoiceVolume="VOLUME DO CHAT VoIP"
+VoiceVolumeDesc=Ajuste o volume do chat.
+VOVolume="VOLUME DOS DIÁLOGOS"
+VOVolumeDesc=Ajuste o volume das falas dos personagens.
+VSync="SINCRONIZAÇÃO VERTICAL"
+VSyncDesc=Que tal limitar a atualização da imagem do jogo à velocidade máxima do seu monitor? Isso só é aplicável no modo tela cheia.
+AbsoluteMinimap="ROTAÇÃO DO MINIMAPA"
+AbsoluteMinimapDesc=Decida se o minimapa deve girar ao redor do indicador do seu personagem ou se o indicador deve girar dentro do minimapa.
+HUDScaleX="LIMITE HORIZONTAL DO HUD"
+HUDScaleXDesc=Defina onde ficam os elementos do HUD na sua tela, horizontamente falando.
+HUDScaleY="LIMITE VERTICAL DO HUD"
+HUDScaleYDesc=É o mesmo do anterior, só que verticalmente falando.
+HUDScaleE="ESCALA DO HUD"
+HUDScaleEDesc=Mude o tamanho de todos os elementos do seu HUD.
+DriftCameraLock="FIXAR CÂMERA AO FREAR"
+DriftCameraLockDesc=Trave a câmera para onde está direcionada a frente do seu veículo quando ele parar.
+InvertedReverseSteering="INVERTER MARCHA RÉ"
+InvertedReverseSteeringDesc=Se der marcha ré no seu veículo, ele girará para o lado onde você está olhando ao invés do sentido contrário (ou mais ou menos isso).
+ViewDistance="DISTÂNCIA VISUAL"
+ViewDistanceDesc=Ajuste a distância que você pode enxergar. Elementos além dessa distância não aparecerão no cenário até que você se aproxime mais deles.
+SplitDirection="TELA DIVIDIDA"
+SplitDirectionDesc=Divida a tela ao meio no sentido horizontal ou vertical durante um jogo de tela dividida.
+TradingDisabled="NEGOCIAÇÃO"
+TradingDisabledDesc=Escolha se deseja que os outros jogadores iniciem negociações com você.
+KeyBinds="VÍNCULO DE TECLAS"
+KeyBindsDesc=Edite as funções das teclas individualmente.
+ResetKeyBinds="RESTAURAR VÍNCULOS DE TECLAS"
+ResetKeyBindsDesc=Restaure os vínculos das teclas para o padrão de fábrica.
+ItemRotationNew="ROTAÇÃO DE ITEM"
+ItemRotationNewDesc=Ajuste o sistema de controles para visualizar os itens no seu inventário.
+ShouldCensorContent="CENSURA DE SANGUE"
+ShouldCensorContentDesc=Se você caga de medo ao ver sangue e mutilações então, ligue essa coisa.
+GunzerkingAutoSwitch="INVERTER BOTÕES GUNZERKING"
+GunzerkingAutoSwitchDesc=Inverta os controles com o Gunzerking, de modo que o disparo principal aciona a arma esquerda ao invés da direita.
+FramerateLocking="TAXA DE QUADROS"
+FramerateLockingDesc=Ajuste quantos quadros por segundo a renderização em tempo real deve trabalhar.
+EasterEggOption="TRANQUEIRAS ADICIONAIS"
+EasterEggOptionDesc=Isso não serve para absolutamente nada. Sentimos muito mesmo se você achou que tinha descoberto o fogo!
+DisableUISway="OSCILAÇÃO DE INTERFACE"
+DisableUISwayDesc=Escolha se o menu do jogo pode oscilar para frente e para trás no cenário do jogo.
+PhysXLevel="EFEITO PHYSX"
+PhysXLevelDesc=Ajuste a complexidade da física em tempo real utilizando a tecnologia NVIDIA PhysX.
+AudioFocus="SILENCIAR AO PERDER O FOCO"
+AudioFocusDesc=Determine se o som deve silenciar ou não quando o jogo é minimizado na barra de tarefas do sistema operacional. (Bom pra quem joga escondido!)
+ApplyChanges="APLICAR ALTERAÇÕES"
+AutoDetectSettings="AUTODETECTAR CONFIGURAÇÕES"
+AutoDetectSettingsDesc=Permita que o jogo defina automaticamente uma configuração otimizada para o poder de processamento do seu computador.
+ColorBlindMode="MODO DALTÔNICO"
+ColorBlindModeDesc=Modifique as cores do feixe de pilhagem e exiba a cor do item no cartão de item.
+VehicleSteering="DIREÇÃO DO VEÍCULO"
+VehicleSteeringDesc="Alterar o método de direção do veículo."
+
+[VehicleSteeringModes]
+VehicleSteeringMode_CameraRelative="Baseado na câmera"
+VehicleSteeringMode_FollowCamera="Tradicional"
+
+[ColorBlindDisplayModes]
+ColorBlindMode_Off="Desligado"
+ColorBlindMode_Deuteranopia="Deuteranopia"
+ColorBlindMode_Protanopia="Protanopia"
+ColorBlindMode_Tritanopia="Tritanopia"
+
+[WillowScrollingListDataProviderTopLevelOptions]
+GameOptions=JOGO
+AudioOptions=ÁUDIO
+VideoOptions=VÍDEO
+KeyboardMouseOptions=TECLADO / MOUSE
+GamepadOptionsPC=CONTROLE
+GamepadOptions360=CONTROLE
+GamepadOptionsPS3=CONTROLE
+ChangeStorageDevice=CHANGE STORAGE DEVICE
+
+[WillowScrollingListDataProviderPause]
+Resume="RETOMAR"
+Achievements="CONQUISTAS"
+Achievements_PS3="TROFÉUS"
+Options="OPÇÕES"
+Debug="DEPURAR"
+Exit="SAIR"
+
+[WillowScrollingListDataProviderLobby]
+Play="JOGAR"
+Options="OPÇÕES"
+Exit="SAIR"
+
+[WillowPlayerController]
+PlayerName=Jogador %ID
+PlayerWantsToJoin=%PLAYER quer jogar! Pressione <StringAliasMap:XboxTypeS_Start> para dividir a tela!
+PlayerWantsToPlay=%PLAYER quer jogar!
+PlayerWantsToPlayMenu=Pressione <StringAliasMap:XboxTypeS_LeftShoulder> no menu principal para convites!
+PlayerWantsToPlayGame=Pressione <StringAliasMap:XboxTypeS_LeftShoulder> no menu principal para convites!
+MaxSplitscreenPlayers=Impossível entrar. Somente 2 jogadores são permitidos no modo tela dividida.
+
+[CharacterCustomization]
+NameCaption=Nome
+HeadCaption=Formato de Cabeça
+SkinCaption=Modelo Corporal
+RespecCaption=Restaurar
+RespecButtonLabel=Retaurar pontos de habilidade
+NameInfo_PC=Mude seu nome para criar<br>uma identificação única para os<br>seus dados de salvamento.<br><br>Seu nome Steam será mostrado durante os jogos cooperativos.
+NameInfo_EpicPC=Change your name to create a unique identifier for your save games.<br><br>Your Epic name will be displayed during co-op games.
+NameInfo_360=Change your name to create a unique identifier for your save games.<br><br>Your gamertag will be displayed during co-op games.
+NameInfo_PS3=Change your name to create a unique identifier for your save games.<br><br>Your PSN online ID will be displayed during co-op games.
+RespecInfo=Pague uma módica quantia para restaurar os pontos da sua árvore de habilidades, para que você possa distribui-los melhor.<br><br>Tarifa: $%1
+SkillTreeDisplay=Árvore %1 %2/%3
+Tooltips=<StringAliasMap:GFx_Accept> Selecionar    <StringAliasMap:GFx_Cancel> Fechar
+Tooltips_Submenu=<StringAliasMap:GFx_Accept> Aplicar    <StringAliasMap:GFx_Cancel> Cancelar
+New=NOVO
+
+[StatusMenuMissionLog]
+NoMissionsText=Sem missões atualmente
+
+[PS3InvitesPopup]
+Message_WantsToPlay="Wants to play Borderlands 2!"
+NoPendingInvites="No pending invites."
+Title="Game Invites"
+
+[ChallengesPanelGFxObject]
+LevelInfoComplete=<font color="#999999">NV %1 - %2 / %3</font><br>
+LevelInfoInProgress=<font color="#D27E02">NV %1 - %2 / %3</font><br>
+LevelInfoNotStarted=<font color="#99F0FF">NV %1 - ???</font><br>
+NonLeveledInfoComplete=<font color="#999999">%2 / %3</font><br>
+NonLeveledInfoInProgress=<font color="#D27E02">%2 / %3</font><br>
+
+[MOTD]
+CompatibilityMessageOfTheDay=(Header="Pacote de compatibilidade disponível!",Body="Baixe o pacote gratuito de compatibilidade para poder jogar online!<br />Selecione 'Conteúdo adicional' no menu principal.",DisplayTime=15)
+PreOrderSeasonPassMessageOfTheDay=(Header="Clube Premiere instalado!",Body="Bem-vindo ao Clube Premiere Borderlands 2!<br />Detalhes da nova classe Mechromancer em breve!",DisplayTime=15)
+PreOrderContentToInstallMessageOfTheDay=(Header="Personagem gratuito!",Body="O Mechromancer já se encontra disponível como conteúdo adicional gratuito para membros do Clube Premiere!<br />Selecione 'Conteúdo adicional' no menu principal para maiores detalhes!",DisplayTime=15)
+SeasonPassMessageOfTheDay=(Header="Season Pass instalado!",Body="Obrigado por adquirir um Season Pass de Borderlands 2!<br />Aguarde por incríveis conteúdos adicionais disponíveis em breve!",DisplayTime=15)
+ContentToInstallMessageOfTheDay=(Header="Conteúdo adicional gratuito!",Body="Um novo conteúdo adicional do Season Pass encontra-se disponível!<br />Selecione 'Conteúdo adicional' no menu principal para maiores detalhes!",DisplayTime=15)
+UninstalledDlcMessageOfTheDay=(Header="Conteúdo adicional desinstalado!",Body="Por favor, retorne à tela título para instalar o seu conteúdo adicional.",DisplayTime=15)
+AccountMessageOfTheDay=(Header="Gearbox Software Shift",Body="Você possui novas recompensas da Gearbox Software Shift!<br />Selecione 'Código Shift' no menu Extras para maiores detalhes!",DisplayTime=15)
+EmergencyAccountMessageOfTheDay=(Header="Gearbox Software Shift",Body="",DisplayTime=15)
+
+[MatchmakingLobby]
+Header=GERADOR DE PARTIDAS
+NameCaption=<StringAliasMap:Term_Gamertag_Caption>
+SuccessResultMessage=Partida encontrada!
+FailureResultMessage_Host=Nenhuma partida foi encontrada.  Criar uma partida pública?
+FailureResultMessage_Client=Nenhuma partida foi encontrada.  Aguardando anfitrião...
+UnknownResultMessage=Resultado do Gerador de Partidas desconhecido!
+SearchingForPerfectGamesMessage=Procurando por partidas excelentes...
+SearchingForGreatGamesMessage=Procurando por boas partidas...
+SearchingForGoodGamesMessage=Procurando por partidas aceitáveis...
+SearchingForGamesTooltip=<StringAliasMap:GFx_Cancel> Cancelar
+NoMatchFoundTooltip=<StringAliasMap:GFx_Cancel> Cancelar    <StringAliasMap:GFx_Accept> Criar partida
+
+[dlgGearboxAccountNoLinkConnection]
+Caption=Sem conexão de rede
+Prompt=Para submeter um código Gearbox Software Shift, você precisa ter uma conexão de rede válida.
+
+[dlgGearboxAccountNotLoggedIn]
+Caption=Não logado
+Prompt=Para submeter um código Gearbox Software Shift, você precisa ser um membro da Xbox LIVE Gold e estar logado na Xbox LIVE.
+
+[dlgGearboxAccountNotConnected360]
+Caption=Not Connected
+Prompt=To redeem Gearbox Software Shift Codes, you must connect to Xbox LIVE.
+
+[dlgGearboxAccountNotConnectedPC]
+Caption=Não conectado
+Prompt=Para submeter um código Gearbox Software Shift você precisa se conectar ao Steam.
+
+[dlgGearboxAccountNotConnectedEpicPC]
+Caption=Not Connected
+Prompt=To redeem Gearbox Software SHiFT Codes, you must connect to Epic.
+
+[dlgGearboxAccountNotConnectedPS3]
+Caption=Not Connected
+Prompt=To redeem Gearbox Software Shift Codes, you must connect to PlayStation®Network.
+
+[dlgGearboxAccountAccessRestricted360]
+Caption=Access Restricted
+Prompt=To redeem Gearbox Software Shift Codes, you must be connected to Xbox LIVE and have online privileges.
+
+[dlgGearboxAccountAccessRestrictedPS3]
+Caption=Access Restricted
+Prompt=To redeem Gearbox Software Shift Codes, you must be connected to PlayStation®Network and have online privileges.
+
+[dlgGearboxAccountConnectionPending]
+Caption=Conexão pendente
+Prompt=Aguarde a conclusão do processo de conexão antes de acessar o menu SHiFT do Gearbox Software.
+
+[dlgGearboxAccountMustSignEulas]
+Caption=Ação requerida
+Prompt=Você deve concordar com os Termos de Serviço e a Política de Privacidade para acessar o Gearbox Software SHiFT.
+
+[dlgGearboxAccountRetrievingEulas]
+Caption=Recuperando texto
+Prompt=Recuperando Termos de Serviço e Política de Privacidade do Gearbox Software SHiFT. Por favor, espere...
+
+[GearboxAccount]
+BackButtonLabel=Voltar
+PlayerNameFormat=Bem-vindo, %playername%
+SignedInStatus=<font color="#FFCC00">Logado na Gearbox Software Shift!</font>
+NotSignedInStatus=<font color="#999999">Não logado na Gearbox Software Shift</font>
+Tooltips=<StringAliasMap:GFx_Accept> Selecionar    <StringAliasMap:GFx_Cancel> Voltar
+Tooltips_SelectDisabled=<font color='#808080'><StringAliasMap:GFx_Accept> Selecionar</font>    <StringAliasMap:GFx_Cancel> Voltar
+Tooltips_RedeemCode=<StringAliasMap:GFx_X> Código Shift
+Tooltips_MyOffers=<StringAliasMap:GFx_X> Minhas recompensas
+Tooltips_TermsOfService=<StringAliasMap:TermsOfService> Termos de serviço
+Tooltips_SupportId=<StringAliasMap:SupportID> ID de suporte
+WelcomeScreenHeader=Bem-vindo!
+WelcomeScreenMessage=Torne-se um membro da Gearbox Software Shift para submeter os códigos Gearbox Software Shift e desbloquear recompensas que vão incrementar ainda mais a experiência em Borderlands 2.<br/><br/>Para desbloquear esse conteúdo exclusivo, registre-se na Gearbox Software Shift imediatamente ou faça login com uma conta já existente.
+WelcomeBackHeader=Bem-vindo de volta!
+SignInButtonLabel=Logar-se
+SignUpButtonLabel=Registrar
+SignInScreenHeader=Logar-se
+SignInScreenMessage=Insira suas credenciais da Gearbox Software Shift para se logar e vincular sua conta. Isso lhe dará acesso às mais diversas funcionalidades e recompensas.
+EmailCaption=E-mail
+PasswordCaption=Password
+ConfirmPasswordCaption=Confirmar password
+AdditionalBenefitsCaption=Benefícios adicionais
+DefaultEmail=
+DefaultPassword=
+DefaultConfirmPassword=
+ResetPasswordButtonLabel=Restaurar password
+AdditionalBenefitsMessage=Faça longin em nosso website com suas novas credenciais de conta e obtenha acesso à funcionalidades adicionais, informações e recompensas disponíveis somente aos membros da Gearbox Software Shift.
+SignInProgressMessage=Logando-se na Gearbox Software Shift
+SignUpProgressMessage=Registrando-se na Gearbox Software Shift
+ResetPasswordProgressMessage=Requisitando restauração de senha para a Gearbox Software Shift
+InputEmailTitle=Endereço de e-mail
+InputEmailDescription=Insira o e-mail vinculado à sua conta Gearbox Software Shift.
+InputPasswordTitle=Password
+InputPasswordDescription=Insira o password vinculado à sua conta Gearbox Software Shift.
+ConfirmPasswordTitle=Confirmar password
+ConfirmPasswordDescription=Por favor, reinsira seu password.
+ResetPasswordScreenHeader=Restaurar password
+ResetPasswordScreenMessage=Para restaurar seu password, insira o endereço completo do e-mail que você usa para acessar sua conta Gearbox Software Shift.
+EULAScreenDefaultHeader=Política online
+EULAScreenDefaultMessage=O uso dos serviços da Gearbox Software Shift estão sujeitos aos termos de serviço localizados em shift.gearboxsoftware.com/eula e a política de privacidade está localizada em www.gearboxsoftware.com/privacy. Ambos esses documentos estão disponíveis para seu conhecimento selecionando as opções a seguir.<br><br>Registrando-se nesse serviço, você aceita as transferências de dados estipuladas na política de privacidade.
+EULAScreenPrivacyPolicyHeader=Política de privacidade
+EULAScreenTermsOfServiceHeader=Termos de serviço
+AcceptButtonLabel=Aceitar
+OnlinePolicyButtonLabel=Política online
+PrivacyPolicyButtonLabel=Política de privacidade
+TermsOfServiceButtonLabel=Termos de serviço
+SignUpScreenHeader=Registrar-se
+SignUpScreenMessage=Para se tornar um membro da Gearbox Software Shift, insira um endereço de e-mail válido e um password contendo 8 ou mais caracteres.
+OffersCaption=Minhas recompensas
+OffersCaption_RedeemCode=Código Shift
+AgeGateScreenHeader=Data de nascimento
+AgeGateScreenMessage=Por favor, insira sua data de nascimento para proceder com o seu registro na Gearbox Software Shift.
+MonthCaption=Mês
+DayCaption=Dia
+YearCaption=Ano
+ConfirmAgeButtonLabel=Confirmar idade
+VerifyingAgeProgressMessage=Verificando idade com a Gearbox Software Shift
+Authentication=Autenticando com a Gearbox Software Shift!
+Authenticated=Autenticando
+RedeemCodeCaption=Por favor, insira seu código:
+RedeemCodeButtonLabel=Código Shift
+RedeemCodeSubmitButtonLabel=Submeter
+RedeemCodeProgressMessage=Submetendo código para a Gearbox Software Shift
+InputCodeSegmentTitle=Introduzir código
+InputCodeSegmentDescription=Introduzir os próximos 5 caracteres do seu código.
+PrivacyPolicyCheckboxCaption=Política de privacidade lida
+TermsOfServiceCheckboxCaption=Termos de serviço lidos
+ChangeAccountSettingsLabel=Para alterar as configurações da sua conta, visite %shiftUrl%
+
+[dlgGearboxAccountInvalidEmail]
+Caption=E-mail inválido
+Prompt=Por favor, insira um endereço de e-mail válido.
+
+[dlgGearboxAccountInvalidPassword]
+Caption=Password inválido
+Prompt=Por favor, insira um password válido que contenha, no mínimo 8 caracteres.
+
+[dlgGearboxAccountPlatformFailure]
+Caption=Falha de autenticação
+Prompt=Impossível autenticar no momento. Por favor, verifique sua conexão de rede e tente novamente mais tarde.
+
+[dlgGearboxAccountTicketNotValid]
+Caption=Falha de autenticação
+Prompt=Impossível autenticar no momento. Por favor, verifique sua conexão de rede e tente novamente mais tarde.
+
+[dlgGearboxAccountGenericSignInFailure]
+Caption=Erro de login
+Prompt=Impossível logar-se na Gearbox Software Shift.
+
+[dlgGearboxAccountLoginFailSignInFailure]
+Caption=Falha de registro
+Prompt=Seu e-mail ou senha não foram reconhecidos na Gearbox Software Shift.
+
+[dlgGearboxAccountPlatformTakenByOtherSignInFailure]
+Caption=Erro de login
+Prompt=Esse <StringAliasMap:Term_GamerProfile> já está associado à uam conta diferente na Gearbox Software Shift.
+
+[dlgGearboxAccountPlatformTakenBySelfSignInFailure]
+Caption=Erro de login
+Prompt=Você já tem um <StringAliasMap:Term_GamerProfile> associado à sua conta na Gearbox Software Shift e não pode associá-lo com mais nenhuma outra conta.
+
+[dlgGearboxAccountNetworkSignInFailure]
+Caption=Erro de login
+Prompt=Impossível comunicar-se com a Gearbox Software Shift. Por favor, tente novamente mais tarde.
+
+[dlgGearboxAccountTimeoutSignInFailure]
+Caption=Erro de login
+Prompt=Sua sessão na Gearbox Software Shift expirou. Você será desconectado automaticamente. Por favor, tente noamente mais tarde.
+
+[dlgGearboxAccountCommunicationFailure]
+Caption=Erro de conexão
+Prompt=Impossível comunicar-se com a Gearbox Software Shift. Por favor, tente novamente mais tarde.
+
+[dlgGearboxAccountResetPasswordSuccess]
+Caption=Restauração de senha
+Prompt=Sua requisição para restauração de senha foi recebida com sucesso.  Por favor, verifique seu e-mail para obter instruções sobre como configurar uma nova senha.
+
+[dlgGearboxAccountGenericResetPasswordFailure]
+Caption=Impossível restaurar senha
+Prompt=Ocorreu um erro ao tentar restaurar sua senha.
+
+[dlgGearboxAccountTimeoutResetPasswordFailure]
+Caption=Impossível restaurar senha
+Prompt=Sua sessão na Gearbox Software Shift expirou. Você será desconectado automaticamente. Por favor, tente novamente mais tarde.
+
+[dlgGearboxAccountCodeRedeemSuccess]
+Caption=Submissão de código
+Prompt=Parabéns! Você possui novas recompensas da Gearbox Software Shift!
+
+[dlgGearboxAccountEntitlementNames]
+DeveloperPerk=Vantagem de desenvolvedor
+DeveloperPerkPlural=%NUMENTITLEMENTS% vantagens de desenvolvedor
+DeveloperSkin=Roupa de desenvolvedor
+DeveloperSkinPlural=%NUMENTITLEMENTS% vantagens de desenvolvedor
+GoldenKey=Chave de ouro
+GoldenKeyPlural=%NUMENTITLEMENTS% chaves de ouro
+
+[dlgGearboxAccountCodeRedeemFailure]
+Caption=Erro de submissão de código
+Prompt=Desculpe-nos mas, seu código não pode ser submetido.
+
+[dlgGearboxAccountCodeRedeemTakenFailure]
+Caption=Erro de submissão de código
+Prompt=Desculpe-nos mas, seu código já foi submetido.
+
+[dlgGearboxAccountCodeRedeemExpiredFailure]
+Caption=Erro de submissão de código
+Prompt=Desculpe-nos mas, seu código expirou e não pode mais ser submetido.
+
+[dlgGearboxAccountCodeRedeemNotValidFailure]
+Caption=Erro de submissão de código
+Prompt=Desculpe-nos mas, seu código não é válido.  Por favor, assegure-se de que todos os 25 caracteres do código foram inseridos corretamente.
+
+[dlgGearboxAccountCodeRedeemTimeoutFailure]
+Caption=Erro de submissão de código
+Prompt=Sua sessão na Gearbox Software Shift expirou. Você será desconectado automaticamente. Por favor, tente noamente mais tarde.
+
+[dlgGearboxAccountCodeRedeemDuplicateFailure]
+Caption=Submissão de código duplicado
+Prompt=Você já submeteu essa recompensa única. Sinta-se à vontade para compartilhar esse código com um amigo!
+
+[dlgGearboxAccountCodeRedeemNetworkFailure]
+Caption=Erro de submissão de código
+Prompt=Impossível comunicar-se com a Gearbox Software Shift. Por favor, tente novamente mais tarde.
+
+[dlgGearboxAccountGenericSignUpFailure]
+Caption=Erro de registro
+Prompt=Impossível criar uma conta na Gearbox Software Shift.
+
+[dlgGearboxAccountEmailTakenSignUpFailure]
+Caption=Erro de registro
+Prompt=Esse e-mail já existe nos registros da Gearbox Software Shift.
+
+[dlgGearboxAccountPlatformTakenSignUpFailure]
+Caption=Erro de registro
+Prompt=Você já está vinculado à uma conta na Gearbox Software Shift.
+
+[dlgGearboxAccountPasswordNotSetSignUpFailure]
+Caption=Erro de registro
+Prompt=Você precisa definir uma senha.
+
+[dlgGearboxAccountPasswordTooShortSignUpFailure]
+Caption=Erro de registro
+Prompt=A senha que você especificou é muito curta.  Uma senha válida deve ter 8 ou mais aracteres.
+
+[dlgGearboxAccountPasswordTooLongSignUpFailure]
+Caption=Erro de registro
+Prompt=A senha que você especificou é muito longa.
+
+[dlgGearboxAccountPasswordInvalidSignUpFailure]
+Caption=Erro de registro
+Prompt=A senha que você especificou contém caracteres inválidos.
+
+[dlgGearboxAccountEmailNotSetSignUpFailure]
+Caption=Erro de registro
+Prompt=Você precisa especificar um endereço de e-mail.
+
+[dlgGearboxAccountEmailNotValidSignUpFailure]
+Caption=Erro de registro
+Prompt=O endereço de e-mail que você especificou não é válido.
+
+[dlgGearboxAccountTimeoutSignUpFailure]
+Caption=Erro de registro
+Prompt=Your Gearbox Software Shift session has timed out. You will be automatically reconnected. Please try again later.
+
+[dlgGearboxAccountSignUpSuccess]
+Caption=Conta criada com sucesso!
+Prompt=Parabéns! Você acaba de se registrar na Gearbox Software Shift!<br/><br/>Um e-mail de confirmação foi enviado para %EMAIL%.
+
+[dlgGearboxAccountSignInSuccess]
+Caption=Faça login com a Conta SHiFT!
+Prompt=Parabéns!  Você fez login na sua conta Gearbox Software SHiFT!<br/><br/>A conta do SHiFT em que você fez login tem um nome de exibição:<br/><font color="#FFFFFF">%SIGNEDINNAME%</font><br/>mas você estava jogando com:<br/><font color="#FFFFFF">%PROVISIONALNAME%</font><br/><br/>Qual nome você gostaria de usar?
+Yes=%PROVISIONALNAME%
+No=%SIGNEDINNAME%
+
+[dlgGearboxAccountPasswordsMustMatch]
+Caption=As senhas devem coincidir
+Prompt=Ambas as senhas digitadas devem coincidir.  Por favor, digite novamente e confirme a sua senha.
+
+[dlgGearboxAccountAgeGateFailureInvalidDate]
+Caption=Data inválida
+Prompt=A data inserida é inválida.
+
+[dlgGearboxAccountAgeGateFailureUnknownAge]
+Caption=Idade desconhecida
+Prompt=Impossível verificar sua idade nesse momento. Por favor, verifique sua conexão de rede e tente novamente mais tarde.
+
+[dlgGearboxAccountAgeGateFailureBelowMinimumAge]
+Caption=Idade insuficiente
+Prompt=Você não tem idade suficiente para se registrar na Gearbox Software Shift.
+
+[dlgGearboxAccountEULAMustReadPolicies]
+Caption=É necessário ler as polítcas
+Prompt=Você precisa ler as políticas de privacidade e os termos de serviço antes de se registrar na Gearbox Software Shift.
+
+[dlgGearboxAccountCodePasteInvalid]
+Caption=Código inválido
+Prompt=Impossível colar o código.  Por favor, assegure-se de ter copiado corretamente o código.
+
+[NetworkOptionsGFxMovie]
+TitleText=Opções de rede
+Tooltips=<StringAliasMap:GFx_Accept> Selecionar    <StringAliasMap:GFx_Cancel> Cancelar
+
+[PlayerDetailsGFxMovie]
+Level=NV. %level% %class%
+Playthrough=%PLAYTHROUGH_NAME%
+QualityTypeGreat=<font color="#00FF00">Partida excelente!</font>
+QualityTypeGood=<font color="#CCFF00">Partida boa!</font>
+QualityTypeAcceptable=<font color="#FFFF00">Partida aceitável!</font>
+QualityTypeBad=<font color="#F79898">Partida fraquinha!</font>
+QualityTypeNone=<font color="#FFFFFF"></font>
+Tooltips=<StringAliasMap:GFx_Accept> Selecionar    <StringAliasMap:GFx_Cancel> Cancelar
+
+[LANServerBrowserGFxMovie]
+HeaderTextCustom=Partidas <StringAliasMap:Term_Online_Caption>
+HeaderTextLAN=Partidas <StringAliasMap:Term_Lan>
+NoGamesFoundMessage=Nenhuma partida encontrada.
+SearchingForGamesMessage=Procurando partidas...
+CharInfoFormat=Nível %level%
+MissionInfoFormat=%mission% - Modo %PLAYTHROUGH_NAME%
+TooltipDefault=<StringAliasMap:FindGames> Atualizar    <StringAliasMap:GFx_Accept> Entrar    <StringAliasMap:GFx_Cancel> Fechar
+TooltipDefaultPC=<StringAliasMap:FindGames> Atualizar    <StringAliasMap:GFx_Accept> Entrar    <StringAliasMap:GFx_Cancel> Fechar    <StringAliasMap:GFx_LeftBumper> Organizar (%SORT%)    <StringAliasMap:GFx_RightBumper> %DIR%
+TooltipNoGames=<StringAliasMap:FindGames> Atualizar    <StringAliasMap:GFx_Cancel> Fechar
+TooltipSearching=<StringAliasMap:GFx_Cancel> Cancelar
+TooltipDefaultGamercard=<StringAliasMap:FindGames> Atualizar    <StringAliasMap:ViewGamercard> Visualizar <StringAliasMap:Term_GamerCard>    <StringAliasMap:GFx_Accept> Entrar    <StringAliasMap:GFx_Cancel> Fechar
+TooltipDefaultGamercardPC=<StringAliasMap:FindGames> Atualizar    <StringAliasMap:ViewGamercard> Visualizar <StringAliasMap:Term_GamerCard>    <StringAliasMap:GFx_Accept> Entrar    <StringAliasMap:GFx_Cancel> Fechar    <StringAliasMap:GFx_LeftBumper> Organizar (%SORT%)    <StringAliasMap:GFx_RightBumper> %DIR%
+GameCountFormat=%gamecount% partida(s) encontrada(s)!
+FriendlyGameVersion=Versão %version%
+SortPlayerCount=Jogadores
+SortPing=Ping
+SortName=Nome
+SortLevel=Nível
+SortMission=Missão
+SortAscending=Ordem Crescente
+SortDescending=Ordem Decrescente
+
+[OnlineMessages]
+CreatingLanGame=Criando sessão <StringAliasMap:Term_Lan>
+CreatingOnlineGame=Criando sessão <StringAliasMap:Term_Online>
+DownloadingUpdates=Baixando atualizações
+LoadLastSaveGame=Carregando personagem padrão
+UpdatingSession=Atualizando sessão
+RestoringSession=Restaurando sessão
+EnumeratingDlc=Procurando conteúdo adicional
+EnumeratingMarketplaceOffers=Procurando ofertas de conteúdo adicional
+ConfirmingAge=Confirmando idade
+ProcessingSignInChange=Processando alteração de login
+CheckingDownloadableContent=Verificando conteúdo adicional
+
+[dlgDownloadableContentUnavailable]
+Caption=Conteúdo adicional indisponível
+Prompt=Não existem conteúdos adicionais disponíveis no momento. Por favor, tente novamente mais tarde.
+
+[ControllerPresets]
+ControllerPreset=CONTROLE PRÉ DEFINIDO
+Custom=Personalizado
+PresetNameCustom=%1 personalizado
+ToCustomizePressY=Para personalizar esse controle, aperte <IMG src='xbox360_Y'>
+ToCustomizePressY_PS3=To customize this controller layout press <IMG src='ps3_Triangle' vspace='-3'>
+OkBar=<StringAliasMap:GFx_Accept> OK
+YesNoBar=<StringAliasMap:GFx_Accept> SIM   <StringAliasMap:GFx_Cancel> NÃO
+PressFirstButton_PC=<font color='#FF0000'>Pressione o botão da função que deseja alterar ou pressione <StringAliasMap:XboxTypeS_Back> ou </font>[<Strings:WillowGame.GameMappedStrings.GMS_Escape>]<font color='#FF0000'> para sair.</font>
+PressFirstButton_360=<font color='#FF0000'>Press button for function to move or press <StringAliasMap:XboxTypeS_Back> to exit.</font>
+PressFirstButton_PS3=<font color='#FF0000'>Press button for function to move or press <StringAliasMap:XboxTypeS_Back> to exit.</font>
+PressSecondButton_PC=<font color='#FF0000'>Pressione o botão que deseja vincular essa função ou pressione <StringAliasMap:XboxTypeS_Back> ou </font>[<Strings:WillowGame.GameMappedStrings.GMS_Escape>]<font color='#FF0000'> para sair.</font>
+PressSecondButton_360=<font color='#FF0000'>Press button where you want to move this function to or press <StringAliasMap:XboxTypeS_Back> to exit.</font>
+PressSecondButton_PS3=<font color='#FF0000'>Press button where you want to move this function to or press <StringAliasMap:XboxTypeS_Back> to exit.</font>
+
+[dlgControllerRemapping_PC]
+Caption=Alternando botões do controle
+Prompt=\nVocê pode modificar os controles alternando dois botões.\n\nPrimeiro pressione o botão com a função que deseja vincular a outro botão.  Depois pressione o botão que deseja vincular a essa função.\n\nAs funções desses dois botões serão trocadas uma com a outra.\n\nQuando terminar, pressione <StringAliasMap:XboxTypeS_Back> ou [<Strings:WillowGame.GameMappedStrings.GMS_Escape>] para aplicar as alterações.
+
+[dlgControllerRemapping_360]
+Caption=Swap Controller Buttons
+Prompt=\nYou can modify the controller by swapping any two buttons.\n\nFirst press the button with the function that you want to assign to some other button.  Then press the button that you want to assign that function to.\n\nThe functions for those two buttons will be swapped.\n\nWhen you are done, press <StringAliasMap:XboxTypeS_Back> para aplicar as alterações.
+
+[dlgControllerRemapping_PS3]
+Caption=Swap Controller Buttons
+Prompt=\nYou can modify the controller by swapping any two buttons.\n\nFirst press the button with the function that you want to assign to some other button.  Then press the button that you want to assign that function to.\n\nThe functions for those two buttons will be swapped.\n\nWhen you are done, press <StringAliasMap:XboxTypeS_Back> para aplicar as alterações.
+
+[dlgControllerClobber]
+Caption=ATENÇÃO
+Prompt=\nVocê já definiu uma configração de controles personalizados.\n\nTem certeza que deseja sobrescrever as definições existentes com o padrão '%PRESETNAME%' que você selecionou?
+
+[dlgControllerExitWarn]
+Caption=ATENÇÃO
+Prompt=\nJá existe uma configuração de controles personalizada, porém, atualmente você selecionou a configuração padrão '%PRESETNAME%'.\n\nSe você sair desse menu agora, seu leiaute customizado será perdido.\n\nDeseja mesmo sair agora?
+
+[dlgInviteRefusedUninstalledContent]
+Caption=Conteúdo adicional
+Prompt=Você possui um conteúdo adicional que ainda não foi instalado.  É preciso instalar o conteúdo adicional antes que você possa aceitar um convite de outro jogador.\n\Gostaria de retornar à tela título para que você possa instalar o seu conteúdo adicional?
+
+[DlcRequiredItem]
+Short=RequER {ITEMS}
+Long=Você precisa ter adquirido o conteúdo adicional {ITEMS} para usar esse item.
+
+[dlgWarnPlaystationStoreExit]
+Caption=Atenção
+Prompt=Acessando cessing downloadable content through PlayStation®Store will remove you from the game.  Are you sure?
+
+[dlgBeginNewGameWithCurrentCharacter]
+Caption=Personagem salvo encontrado
+Prompt=%PLAYERNAME% carregou uma partida com um personagem válido.  Deseja começar uma nova partida com esse personagemr?<br><br>    Nome do personagem: %CHARNAME%<br>    Nível do personagem: %CHARLEVEL%
+Yes=Sim
+No=Não
+TipYes=Sim, eu quero usar esse personagem.
+TipNo=Não, eu quero escolher um novo personagem ou carregar um personagem diferente.
+
+[dlgNetworkRestoreInProgress]
+Caption=Opções de rede
+Prompt=Impossível mudar as opções de rede enquanto se restaura as configurações anteriores.  Por favor, aguarde...
+
+[dlgCannotSave]
+Cancel=Cancelar
+Caption=Sair do jogo
+NoSave=Sair
+Prompt=Tem certeza que deseja sair da partida atual e voltar ao menu principal?
+
+[dlgSplitExitCannotSave]
+Cancel=Cancelar
+Caption=Abandonar partida
+NoSave=Abandonar partida
+Prompt=Você será removido da partida atual.  Todos os outros jogadores irão permanecer.  Tem certeza que deseja abandonar a partida atual?
+
+[Playthrough]
+PLAYTHROUGH_NAME_1=Normal
+PLAYTHROUGH_NAME_2=Caçador da Sepultura Definitivo
+PLAYTHROUGH_DESC_2=O modo Caçador da Sepultura Definitivo é onde o jogo começa de verdade. Você terá de encarar inimigos novos e melhorados... e ganhar recompensas incríveis, além de subir seu nível ainda mais!
+
+[dlgPublicModeDisabled]
+Caption=Modo público indisponível
+Prompt=Os servidores do Gerador de Partidas estão todos ocupados e não podem aceitar sua requisição. Por favor, tente novamente mais tarde.
+
+[dlgMatchmakingDisabled]
+Caption=Gerador de Partidas indisponível
+Prompt=Os servidores do Gerador de Partidas estão todos ocupados e não podem aceitar sua requisição. Por favor, tente novamente mais tarde.
+
+[dlgDLCEnumerationFailed]
+Caption=Conteúdo adicional
+Prompt=Impossível enumerar as ofertas de conteúdo adicional. Por favor, tente novamente mais tarde.
+
+[dlgMatchmakingDisabledForParty]
+Caption=Hospedar partida
+Prompt=Você já possui uma equipe! Que tal hospedar uma partida pública?
+
+[MarketplaceSellTextPC]
+0x00032BD6=
+0x00032BEA=
+0x00032BFE="Entre nas terras hostis de Pirate Bay em busca de tesouros antigos enterrados em algum lugar no lixo, um esconderijo que faria até o mais estóico dos exploradores de Pandora ter fome de descobertas. Há rumores de que ela é guardada pela maior e mais cruel criatura de Pandora - mas isso não deve impedir um verdadeiro aventureiro ... apresentando novos locais desertos, novos inimigos, novas missões e muito mais itens!"
+0x00032F32="Entre no Domo da Matança de Criaturas e enfrente os monstros mais difíceis de toda a Pandora. Seus esforços não serão em vão. Ganhe experiência e equipamentos para voltar ao jogo principal. Aguente a batalha e você receberá inúmeras recompensas, incluindo o Moxxi's Rocket Launcher."
+0x000340DA="Entre na "Campanha de carnificina da Torgue ”e veja se você tem o que é preciso para se tornar campeão dessa nova história em Borderlands 2. Lute pelo grande saque contra alguns dos piores bandidos de Pandora, incluindo hordas de bandidos de motociclistas. Além disso, faça missões especiais de Tiny Tina, Moxxi e outras para recompensas extras. E não se esqueça de trazer seus amigos - esses níveis mais altos ficam bem difíceis."
+0x000340EE="Este download concede a Mechromancer, uma quinta classe de personagem jogável que pode convocar um robô destrutivo chamado Deathtrap. Além desta nova classe, este pacote também inclui itens de bônus que foram incluídos no Borderlands 2 Premiere Club Pack, incluindo o Gearbox Gold Gun Pack, uma Chave de Ouro, que desbloqueia itens raros no misterioso Sanctuary Loot Chest e o Vault Hunter's Relíquia, que aumenta sua sorte na caça de artes."
+0x000340EF= 
+0x00034102="Na Grande caçada de Sir Hammerlock, os jogadores entrarão em um território desconhecido nos pântanos de Pandora, onde uma enorme nave Hyperion caiu. Há rumores de que os destroços têm estoques de pilhagem. Mas cuidado, criaturas mutantes e exércitos de selvagens também tem interesse no navio."
+0x00034314="Vista o personagem de sua escolha com novas cabeças e skins no Collector's Edition Pack. Este pacote também inclui a granada Contraband Sky Rocket."
+0x00034315= 
+0x000355B6="Junte-se aos Vault Hunters, antigos e novos, na épica busca de vingança e redenção de Tiny Tina. O ataque de Tiny Tina ao Dragon Keep, o maior e mais inspirado conteúdo complementar da história de Borderlands, apresenta um jogo dentro de um jogo, enquanto Tiny Tina assume o papel de Bunker Master em um jogo de "Bunkers & Badasses". Viaje por um mundo sombrio e em constante mudança de castelos, masmorras e florestas mágicas enquanto luta contra esqueletos, orcs, dragões e muito mais para salvar a rainha e restaurar a paz e a ordem no mundo."
+0x000355C0="A campanha de Borderlands nã é suficiente? O Borderlands 2 Season Pass está repleto de aventura, com novas campanhas, novos locais, novos inimigos e um aumento de limite de nível. Lute contra piratas e descubra novos tesouros ao lado da capitã Scarlett, torne-se campeão na arena épica de Torgue e localize novos monstros na Grande caçada de Sir Hammerlock. Desbloqueie mais habilidades e níveis com o Ultimate Vault Hunter Upgrade Pack. Compre o passe de temporada e obtenha todos os quatro complementos de campanha, além do limite de nível pelo preço de três campanhas adicionais - uma economia de 33%."
+0x000382CA="Veja Pandora por trás dos olhos ameaçadores de Krieg, o Psycho Bandit, um personagem totalmente novo e a 6ª classe jogável em Borderlands 2. Você lutou contra eles como inimigos, agora use essa energia agressiva do lado dos Vault Hunters . Fatie, corte, acenda o fogo e exploda tudo! Tomar dano nunca foi tão gratificante - ou tão divertido!"
+0x00036BC8="Leve Borderlands 2 para o próximo nível. O upgrade do Ultimate Vault Hunter permite que você aproveite ao máximo a experiência Borderlands 2. Este pacote inclui aumentos de nível até o nível 61. Jogue novamente o jogo com acesso a novas armas, equipamentos e muito mais. O Ultimate Pack faz parte do Borderlands 2 Season Pass, agora oferecendo ainda mais valor pelo preço!"
+0x00036BB4="O Ultimate Vault Hunter Upgrade Pack 2: Digistruct Peak Challenge adiciona mais 11 níveis de crescimento de personagens, novos equipamentos lendários e o desafiador mapa "Raid on Digistruct Peak", oferecendo ainda mais jogadas de alto nível. Para jogadores que desejam tirar o máximo proveito de sua experiência com Borderlands 2, o primeiro Ultimate Upgrade Pack e o Ultimate Upgrade Pack 2 podem ser combinados para um nível máximo de 72, equipamentos ainda mais lendários e novos modos acima do nível!"
+0x0003C082="Não perca a cabeça na Colheita Sangrenta com tema de Halloween do T.K. Baha; onde o doce não é chocolate e há mais truques do que doces. Ajude o zumbi T.K. Baha a detonar o terrível Rei Abóbora e adiciona um novo conjunto de cabeças e skins à sua coleção. Este é o primeiro de uma série de pacotes de Headhunter para Borderlands 2; confira o novo caminho da história, chefes, cabeças e skins!"
+0x0003C096="Agora, servindo-lhes com este segundo complemento festivo Headhunter para Borderlands 2; você não estará morrendo de fome quando estiver lutando contra o Gobbler da Acácia Voraz. Lute contra a fome e acabe com ele, deixando você cheio de histórias da vovó Torgue, além de deliciosas cabeças e skins!"
+0x0003C0AA="Você atingiu Frost Bottom no terceiro Pacote Headhunter de Borderlands 2. É a temporada que está dando, então ajude Marcus a salvar o dia do mercenário e derreter O abominável senhor Tinder Snowflake. Fuja dos Frost Biters, aqueça Gingerton e dê uma mãozinha ao Small Tim. Haverá muitas caçadas para dar presentes e saques enquanto você coleciona novas cabeças e skins festivas!"
+0x0003C0BE="O amor é um campo de batalha a pedido de Mad Moxxi no Massacre do Dia do Casamento. Ajude a unir dois amantes estrelados na esperança de unificar os clãs rivais Zaford e Hodunk e encontre alguma sorte (sem mencionar novas cabeças e skins) pelo caminho neste novo complemento Headhunter."
+0x0003C0D2="Decolando para a ilha Wam Bam pra relaxar? O caos e desordem alcança os Vault Hunters quando Sir Hammerlock é sequestrado pelo terrível Filho de Crawmerax neste quinto e último Pacote Headhunter - salve-o com a ajuda de Crazy Earl e pegue algumas cabeças e skins de lembrança pelo caminho. Mas cuidado, Sparky Flynt está olhando para aquecer as coisas e dar-lhe mais do que uma queimadura de sol."
+
+[dlgGearboxAccountShowSupportId]
+Caption=ID de suporte SHiFT
+Prompt=O seu ID de suporte SHiFT é:<br/><br/><font size='30' color='#00BDF3' letterspacing='6'>          %SUPPORTID%</font><br/><br/>Entre em contato com o suporte.gearboxsoftware.com para obter ajuda com a SHiFT.
+Unknown=Desconhecido
+
+[dlgEpicMustRestartToGoOnline]
+Caption=É necessário reiniciar
+Prompt=O Epic Launcher deve reiniciar o jogo para ficar online. Selecione "Sim" para reiniciar o jogo.
+
+[ShiftNotifications]
+FriendRequestSent=Pedido de amizade SHiFT enviado.
+BlockSent=Usuário bloqueado na SHiFT.
+
+[dlgCrossPlayJoinEnable]
+Caption=PC Cross-Play Lobby
+Prompt=Este lobby tem o PC Cross-Play ativado. Para ingressar neste lobby, o PC Cross-Play será temporariamente ativado durante esta sessão. Você quer continuar?
+
+[dlgCrossPlayInviteEnable]
+Caption=Convite para PC Cross-Play
+Prompt=Para enviar este convite, o PC Cross-Play será temporariamente ativado durante esta sessão. Você quer continuar?
+
+[dlgCouldNotRestoreSession]
+Caption=Conexão perdida
+Prompt=Você retornou ao menu principal porque a sessão não pôde ser restaurada.
+
+[dlgCouldNotConnectSHiFT]
+Caption=Conexão SHiFT perdida
+Prompt=Não foi possível se comunicar com os servidores SHiFT no momento. O multijogador online e o resgate código SHiFT não estão disponíveis no momento. Para verificar o status do servidor, siga @SHiFTstatus no Twitter. Para suporte ao cliente, visite https://gearboxsoftware.zendesk.com/
+
+[dlgSHiFTAccountDuplicateError]
+Caption=Erro na conta SHiFT
+Prompt=Você não pode ingressar na sessão porque um usuário vinculado à sua conta SHiFT já está conectado.

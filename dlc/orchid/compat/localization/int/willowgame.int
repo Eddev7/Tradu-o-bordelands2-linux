@@ -1,0 +1,7 @@
+[Training]
+SeraphVendor=O mercador de Cristais de Serafim vende equipamentos de primeira, porém, ele só aceita Cristais de Serafins como pagamento.\n\nConsiga mais Cristais de Serafim eliminando Guardiões Serafim.
+SeraphVendorTitle=Mercador de Cristais de Serafim
+RaidLockout=Esse chefe está bloqueado. Um ou mais jogadores já mataram esse chefe hoje.
+RaidLockoutTitle=Chefe bloqueado
+HealthAttrition=A saúde dos jogadores será reduzida temporariamente cada vez que for revivido durante essa batalha.
+HealthAttritionTitle=Tema o Ceifador

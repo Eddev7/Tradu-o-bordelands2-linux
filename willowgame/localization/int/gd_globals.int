@@ -1,0 +1,21 @@
+[General.Globals GlobalsDefinition]
+DamageDisplayParticleResistParamName="SpawnResist"
+AttributePresentationTranslation="$NUMBER$ $CONSTRAINT$ $DESCRIPTION$"
+
+[VehicleSpawnStation.VehicleFamily_BanditTechnical VehicleFamilyDefinition]
+FamilyName="Veículo de Bandido"
+
+[VehicleSpawnStation.VehicleFamily_Runner VehicleFamilyDefinition]
+FamilyName="Runner Leve"
+
+[VehicleSpawnStation.VSSUI_CatapultTechnical VSSUIDefinition]
+VehicleName="Veículo Catapulta"
+
+[VehicleSpawnStation.VSSUI_MGRunner VSSUIDefinition]
+VehicleName="Runner Leve com Metralhadora"
+
+[VehicleSpawnStation.VSSUI_RocketRunner VSSUIDefinition]
+VehicleName="Runner Leve com Foguetes"
+
+[VehicleSpawnStation.VSSUI_SawBladeTechnical VSSUIDefinition]
+VehicleName="Veículo com Moto-serra"

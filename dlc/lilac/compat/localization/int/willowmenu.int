@@ -1,0 +1,13 @@
+[CharacterCustomization]
+Tooltips_SubMenu_Purchase=<StringAliasMap:GFx_Accept> Comprar    <StringAliasMap:GFx_Cancel> Cancelar
+
+[CharacterCustomizationPurchase]
+Cancel=Não, quero voltar para o jogo.
+Caption=Procurar personalizações?
+Prompt=Para comprar este item, você precisa sair do jogo atual.
+Purchase=Sair do jogo e entrar na PlayStation®Store.
+TipPurchase=Todo o progresso não salvo será perdido.
+
+[dlgStorageSelectionMayOverwriteSavedata]
+Caption=Atenção
+Prompt=Isso irá substituir os dados salvos anteriores. Tem certeza que deseja continuar?

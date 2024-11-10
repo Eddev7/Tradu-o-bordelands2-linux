@@ -1,0 +1,16 @@
+[Playthrough]
+PLAYTHROUGH_NAME_3=Ultimate Vault Hunter
+PLAYTHROUGH_DESC_3=O modo Ultimate Vault Hunter é onde o jogo começa DE VERDADE.  Você vai enfrentar inimigos mais fortes, receberá mais recompensas e evoluirá muito mais níveis!
+
+[dlgResetPlaythrough]
+Caption=Reset
+Prompt=Tem certeza que deseja redefinir o progresso das missões desse jogo?  Isso também fará você perder todas as recompensas não recebidas das missões completadas.
+
+[dlgPlaythroughHasBeenReset]
+Caption=Reset
+Prompt=O progresso do seu jogo foi redefinido.  Você começará em Southern Shelf na missão ''Limpeza Urbana''.
+
+[dlgDlcLevelCapNotInstalled]
+Caption=Conteúdo adicional
+Prompt=Esse personagem de nível %CHARACTERLEVEL% necessita de um conteúdo adicional que não está disponível.\n\nVocê não poderá ganhar experiência à partir do nível %LEVELCAP% se não fizer o download do conteúdo que aumenta o limite de nível.
+

@@ -1,0 +1,12 @@
+[GamePawn]
+MenuName=""
+
+[GamePlayerController]
+NoPauseMessage="Jogo não pausável"
+OwnCamera="Visualizando da sua própria câmera"
+QuickSaveString="Salvamento rápido"
+ViewingFrom="Visualizando da"
+
+[GameVehicle]
+MenuName=""
+

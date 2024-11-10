@@ -1,0 +1,9 @@
+[GearboxPawn]
+MenuName=""
+
+[GearboxPlayerController]
+NoPauseMessage="Jogo não pausável"
+OwnCamera="Visualizando da sua própria câmera"
+QuickSaveString="Salvamento rápido"
+ViewingFrom="Visualizando da "
+

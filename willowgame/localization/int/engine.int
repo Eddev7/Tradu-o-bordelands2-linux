@@ -1,0 +1,442 @@
+[AccessControl]
+ACDescText[0]="Se essa senha for definida, os jogadores terão que inseri-la para poder entrar nesse servidor."
+ACDescText[1]="Especifique o endereço IP ou intervalos de endereços que foram banidos."
+ACDescText[2]="Uma senha é requerida para efetuar login com privilégios de administrador nesse servidor."
+ACDisplayText[0]="Senha de jogo"
+ACDisplayText[1]="Normas de acesso"
+ACDisplayText[2]="Senha de Administrador"
+DefaultKickReason="Nenhuma especificada"
+IdleKickReason="Expulsando por inatividade."
+IPBanned="Seu endereço IP foi banido desse servidor."
+KickedMsg="Você foi expulso da partida."
+NeedPassword="Você precisa inserir uma senha para entrar no jogo."
+SessionBanned="Seu endereço IP foi banido da partida atual."
+WrongPassword="A senha que você inseriu está incorreta."
+AuthenticationFailed="Erro de autenticação"
+SpammingServerAuth="Gerando autenticação de servidor"
+
+[Admin]
+NoPauseMessage="Jogo não pausável"
+OwnCamera="Visualizando da sua própria câmera"
+QuickSaveString="Salvamento rápido"
+ViewingFrom="Visualizando da"
+
+[AudioBspVolume]
+LocationName=""
+
+[BlockingVolume]
+LocationName=""
+
+[ColorScaleVolume]
+LocationName=""
+
+[CullDistanceVolume]
+LocationName=""
+
+[CurveEdPresetCurve]
+CurveName=""
+
+[DamageType]
+DeathString="`o foi morto por `k."
+FemaleSuicide="`o suicidou-se."
+MaleSuicide="`o suicidou-se."
+
+[DebugCameraController]
+NoPauseMessage="Jogo não pausável"
+OwnCamera="Visualizando da sua própria câmera"
+QuickSaveString="Salvamento rápido"
+ViewingFrom="Visualizando da"
+
+[Default__ConsoleEntry]
+InputBoxTemplate.InitialValue="Valor de edição inicial"
+
+[Default__ScriptConsoleEntry]
+ConsoleInputTemplate.InitialValue="Valor de edição inicial"
+
+[Default__UIButton]
+ButtonClickHandler.Description=""
+
+[Default__UIObject]
+WidgetInitializedEvent.Description=""
+
+[Default__UIScene]
+EnteredStateEvent.Description="Ativa-se quando uma aplicação entra em um novo estado de menu."
+LeftStateEvent.Description="Ativa-se quando uma aplicação abandona um estado de menu"
+SceneActivatedEvent.Description=""
+SceneDeactivatedEvent.Description=""
+SceneInitializedEvent.Description=""
+
+[DefaultPhysicsVolume]
+LocationName=""
+
+[DmgType_Crushed]
+DeathString="`o foi eliminado por `k."
+FemaleSuicide="`o suicidou-se."
+MaleSuicide="`o suicidou-se."
+
+[DmgType_Fell]
+DeathString="`k empurrou `o pela borda."
+FemaleSuicide="`o deixou uma pequena cratera"
+MaleSuicide="`o deixou uma pequena cratera"
+
+[DmgType_Suicided]
+DeathString="`o teve um aneurisma."
+FemaleSuicide="`o teve um aneurisma."
+MaleSuicide="`o teve um aneurisma."
+
+[DmgType_Telefragged]
+DeathString="`o foi estuprado por `k"
+FemaleSuicide="`o foi estuprado por `k"
+MaleSuicide="`o foi estuprado por `k"
+
+[DynamicBlockingVolume]
+LocationName=""
+
+[DynamicPhysicsVolume]
+LocationName=""
+
+[DynamicTriggerVolume]
+LocationName=""
+
+[FailedConnect]
+FailMessage[0]="ERRO AO ENTRAR NA PARTIDA.  SENHA REQUERIDA."
+FailMessage[1]="ERRO AO ENTRAR NA PARTIDA.  sENHA ERRADA."
+FailMessage[2]="ERRO AO ENTRAR NA PARTIDA.  A PARTIDA JÁ COMEÇOU."
+FailMessage[3]="ERRO AO ENTRAR NA PARTIDA."
+
+[FoliageFactory]
+LocationName=""
+
+[GameInfo]
+DefaultPlayerName="Jogador"
+GameName="Jogo"
+
+[GameMessage]
+ArbitrationMessage="A partida já começou."
+BecameSpectator="torne-se um espectador."
+CantBePlayer="Desculpe-nos mas, você não pode se tornar um jogador ativo por enquanto."
+CantBeSpectator="Desculpe-nos mas, você não pode se tornar um espectador por enquanto."
+EnteredMessage=" entrou na partida."
+FailedPlaceMessage="Nenhum ponto de início foi encontrado"
+FailedSpawnMessage="Impossível ressurgir jogador"
+FailedTeamMessage="Nenhuma equipe foi encontrada para o jogador"
+GlobalNameChange="mudou o nome para"
+KickWarning="Você está prestes a ser expulso por inatividade!"
+LeftMessage=" abandonou o jogo."
+MaxedOutMessage="O servidor já está na sua capacidade máxima."
+MustHaveStats="Você deve ativar as estatísticas para entrar nesse servidor."
+NewPlayerMessage="Um novo jogador entrou na partida."
+NewSpecMessage="Um espectador entrou na partida/"
+NewTeamMessage="está agora em"
+NewTeamMessageTrailer=""
+NoNameChange="Esse nome já está em uso."
+OvertimeMessage="Empate de pontos. Prorrogação por morte súbita!!!"
+SpecEnteredMessage=" entrou como espectador."
+SwitchLevelMessage="Mudando níveis"
+VotePassed="Voto aceito."
+VoteStarted="iniciar uma votação."
+
+[GameViewportClient]
+ConnectingMessage="CONECTANDO"
+LoadingMessage="CARREGANDO"
+PausedMessage=""
+PrecachingMessage="CARREGANDO EM CACHÊ"
+SavingMessage="SALVANDO"
+
+[GravityVolume]
+LocationName=""
+
+[KillZDamageType]
+DeathString="`o foi eliminado por `k."
+FemaleSuicide="`o suicidou-se."
+MaleSuicide="`o suicidou-se."
+
+[LadderVolume]
+LocationName=""
+
+[LevelStreamingVolume]
+LocationName=""
+
+[LightVolume]
+LocationName=""
+
+[NxGenericForceFieldBrush]
+LocationName=""
+
+[OnlinePlaylistGameTypeProvider]
+Description=""
+DisplayName=""
+
+[OnlinePlaylistProvider]
+DisplayName=""
+
+[OnlineProfileSettings]
+OwnerMappings[1]=(Name="Ajustes de serviço online")
+OwnerMappings[2]=(Name="Ajustes de jogo")
+; GBX:cpickett - we don't use any of Epic's profile settings and this causes problems with localization for our settings that share indices
+;ProfileMappings[0]=(ValueMappings=((Name="Desligado"),(Name="Ligado")))
+;ProfileMappings[1]=(ValueMappings=((Name="Desligado"),(Name="Ligado")))
+;ProfileMappings[10]=(ValueMappings=((Name="Desligado"),(Name="Ligado")))
+;ProfileMappings[11]=(ValueMappings=((Name="Stick esquerdo"),(Name="Stick direito")))
+;ProfileMappings[12]=(ValueMappings=((Name="Automático"),(Name="Manual")))
+;ProfileMappings[13]=(ValueMappings=((Name="Atrás"),(Name="Adiante"),(Name="Dentro")))
+;ProfileMappings[14]=(ValueMappings=((Name="Gatilho"),(Name="Botão")))
+;ProfileMappings[15]=(ValueMappings=((Name="Gatilho"),(Name="Botão")))
+;ProfileMappings[2]=(ValueMappings=((Name="Não"),(Name="Sim")))
+;ProfileMappings[3]=(ValueMappings=((Name="Desligado"),(Name="Ligado"),(Name="Ambos")))
+;ProfileMappings[5]=(ValueMappings=((Name="Normal"),(Name="Fácil"),(Name="Difícil")))
+;ProfileMappings[6]=(ValueMappings=((Name="Médio"),(Name="Baixo"),(Name="Difícil")))
+;ProfileMappings[7]=(ValueMappings=(,(Name="Preto"),(Name="Branco"),(Name="Amarelo"),(Name="Laranja"),(Name="Rosa"),(Name="Vermelho"),(Name="Púrpura"),(Name="Azul"),(Name="Verde"),(Name="Marrom"),(Name="Prata")))
+;ProfileMappings[8]=(ValueMappings=(,(Name="Preto"),(Name="Branco"),(Name="Amarelo"),(Name="Laranja"),(Name="Rosa"),(Name="Vermelho"),(Name="Púrpura"),(Name="Azul"),(Name="Verde"),(Name="Marrom"),(Name="Prata")))
+;ProfileMappings[9]=(ValueMappings=((Name="Desligado"),(Name="Ligado")))
+
+[PathBlockingVolume]
+LocationName=""
+
+[Pawn]
+MenuName=""
+
+[PhysicsVolume]
+LocationName=""
+
+[PlayerController]
+NoPauseMessage="Jogo não pausável"
+OwnCamera="Visualizando da sua própria câmera"
+QuickSaveString="Salvamento rápido"
+ViewingFrom="Visualizando da"
+
+[PlayerReplicationInfo]
+StringDead="Morto"
+StringSpectating="Assistindo"
+StringUnknown="Desconhecido"
+
+[PortalVolume]
+LocationName=""
+
+[PostProcessVolume]
+LocationName=""
+
+[Progress]
+Connecting=
+
+[RB_ForceFieldExcludeVolume]
+LocationName=""
+
+[ResourceDefinition]
+ResourceName=""
+
+[ReverbVolume]
+LocationName=""
+
+[Scout]
+MenuName=""
+
+[ServerCommandlet]
+HelpDescription="Servidor de jogo em rede"
+HelpParamDescriptions[0]="Especifique o arquivo de registro a gerar"
+HelpParamDescriptions[1]="Conceda privilégios de administrador para todos os jogadores"
+HelpParamNames[0]="Registro"
+HelpParamNames[1]="AllAdmin"
+HelpUsage="server map.unr[?game=gametype] [-option...] [parm=value]..."
+HelpWebLink="http://unreal.epicgames.com/servertips.htm"
+
+[ShadowRelevanceVolume]
+LocationName=""
+
+[SmokeTestCommandlet]
+HelpDescription="This commandlet runs a series of tests to validate a build"
+HelpParamDescriptions[0]="Runs the game as a server for one tick to validate startup and first frame code"
+HelpParamDescriptions[1]="Validates that all native classes match their script classes in member layout"
+HelpParamNames[0]="SERVIDOR"
+HelpParamNames[1]="CHECK_NATIVE_CLASS_SIZES"
+HelpUsage="gamename.exe smoketest <SERVER | CHECK_NATIVE_CLASS_SIZES>"
+HelpWebLink=""
+
+[SoundNodeWave]
+bManualWordWrap=Falso
+bMature=Falso
+Comment=""
+SpokenText=""
+
+[SoundVolume]
+LocationName=""
+
+[SoundVolumeCrossfader]
+LocationName=""
+
+[SVehicle]
+MenuName=""
+
+[TeamInfo]
+TeamName="Equipe"
+
+[TriggerVolume]
+LocationName=""
+
+[UICharacterSummary]
+CharacterBio=""
+CharacterName=""
+
+[UIDataProvider_MenuItem]
+Description=""
+FriendlyName=""
+
+[UIDataProvider_OnlineFriendMessages]
+bIsFriendInviteCol="Convite de amigo"
+bWasAcceptedCol="Convite aceito"
+bWasDeniedCol="Seu amigo recusou"
+MessageCol="Mensagem"
+SendingPlayerNameCol="Remetente"
+
+[UIDataProvider_OnlineFriends]
+AwayText="Ausente"
+bHasInvitedYouCol=""
+bHasRequestedYouCol=""
+bHasVoiceSupportCol="Possui dispositivo de voz"
+bHaveInvitedCol=""
+bHaveRequestedCol=""
+bIsJoinableCol="Pode entrar"
+bIsOnlineCol="Está online"
+bIsPlayingCol="Está jogando"
+bIsPlayingThisGameCol="Está jogando esse jogo"
+BusyText="Ocupado"
+FriendStateCol=""
+NickNameCol="Nome"
+OfflineText="Offline"
+OnlineText="Online"
+PresenceInfoCol="Status Online"
+
+[UIDataStore_OnlineStats]
+PlayerNickData.PlayerNickColumnName="Apelido"
+RankNameMetaData.RankColumnName="Classificação"
+
+[UIEditBox]
+InitialValue="Valor de edição inicial"
+
+[UIEvent]
+Description=""
+
+[UIEvent_CalloutButtonInputProxy]
+Description=""
+
+[UIEvent_CheckValueChanged]
+Description=""
+
+[UIEvent_ComboboxValueChanged]
+Description=""
+
+[UIEvent_Initialized]
+Description=""
+
+[UIEvent_ListIndexChanged]
+Description=""
+
+[UIEvent_MetaObject]
+Description=""
+
+[UIEvent_NumericOptionListValueChanged]
+Description=""
+
+[UIEvent_OnClick]
+Description=""
+
+[UIEvent_OnDoubleClick]
+Description=""
+
+[UIEvent_OnEnterState]
+Description="Ativa-se quando uma aplicação entra em um novo estado de menu"
+
+[UIEvent_OnLeaveState]
+Description="Ativa-se quando uma aplicação abandona um estado de menu"
+
+[UIEvent_OptionListValueChanged]
+Description=""
+
+[UIEvent_ProcessInput]
+Description="Executa ações como resposta a um evento de entrada, como uma tecla pressionada ou um movimento de mouse"
+
+[UIEvent_ProgressBarValueChanged]
+Description=""
+
+[UIEvent_Scene]
+Description=""
+
+[UIEvent_SceneActivated]
+Description=""
+
+[UIEvent_SceneDeactivated]
+Description=""
+
+[UIEvent_SliderValueChanged]
+Description=""
+
+[UIEvent_State]
+Description=""
+
+[UIEvent_SubmitData]
+Description=""
+
+[UIEvent_SubmitListData]
+Description=""
+
+[UIEvent_SubmitTextData]
+Description=""
+
+[UIEvent_TabControl]
+Description=""
+
+[UIEvent_TabPageActivated]
+Description=""
+
+[UIEvent_TabPageEnabled]
+Description=""
+
+[UIEvent_TabPageInserted]
+Description=""
+
+[UIEvent_TabPageRemoved]
+Description=""
+
+[UIEvent_TextValueChanged]
+Description=""
+
+[UIEvent_ValueChanged]
+Description=""
+
+[UIGameInfoSummary]
+Description=""
+GameName=""
+
+[UIMapSummary]
+Description=""
+DisplayName=""
+
+[UINumericEditBox]
+InitialValue="Valor de edição inicial"
+
+[UIStyle]
+StyleName="Default Style"
+
+[UIWeaponSummary]
+FriendlyName=""
+WeaponDescription=""
+
+[Vehicle]
+MenuName=""
+
+[Volume]
+LocationName=""
+
+[WaterVolume]
+LocationName="under water"
+
+[WillowInventoryDefinition]
+NoManufacturerName="Genérico"
+PickupMessage="Você tem %s"
+PickupMessageWithLevel="Você tem %s (Nível %d)"
+UseFailureConstraintsMessage="Você não pode usar esse item."
+UseFailureLevelMessage="Você deve estar, pelo menos, no nível %d para usar esse item."
+
+[WorldInfo]
+Title=""
+

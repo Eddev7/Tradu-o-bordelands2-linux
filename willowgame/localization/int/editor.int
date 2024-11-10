@@ -1,0 +1,717 @@
+[AnalyzeContentCommandlet]
+HelpDescription="this will print out an overview of the content the packages listed to the cmd prompt (c.f. AnalyzeReferencedContent for getting more in depth stats)"
+HelpUsage="gamename.exe AnalyzeContent <list of packages>"
+HelpWebLink=""
+
+[AnalyzeCookedContentCommandlet]
+HelpDescription="Displays statistics about cooked packages, such as the total disk space used by each type of asset or assets which are duplicated in multiple packages."
+HelpUsage="gamename.exe AnalyzeCookedContent"
+HelpWebLink=""
+
+[AnalyzeCookedPackagesCommandlet]
+HelpDescription="@todo"
+HelpUsage="gamename.exe AnalyzeCookedPackages"
+HelpWebLink=""
+
+[AnalyzeReferencedContentCommandlet]
+HelpDescription="this dump a number of .cvs with an overview of all content in the game"
+HelpParamDescriptions[0]="Only load up maps and thereby only the content referenced in those maps"
+HelpParamDescriptions[1]="Do not analyze script referenced objects"
+HelpParamDescriptions[10]="Ignore Particle"
+HelpParamDescriptions[11]="Ignore AnimSequence"
+HelpParamDescriptions[12]="Ignore SoundCue"
+HelpParamDescriptions[13]="Ignore Brush"
+HelpParamDescriptions[14]="Ignore Level"
+HelpParamDescriptions[15]="Ignore ShadowMap"
+HelpParamDescriptions[16]="Ignore FaceFX"
+HelpParamDescriptions[2]="Do not analyze non native script referenced objects (e.g. useful for seeing what will always be loaded)"
+HelpParamDescriptions[3]="Load sub levels if exists"
+HelpParamDescriptions[4]="Test to see if unique specular texture is used for materials. This could conflict with instruction count, so use this as a separate pass."
+HelpParamDescriptions[5]="Ignore StaticMesh"
+HelpParamDescriptions[6]="Ignore StaticMeshComponent"
+HelpParamDescriptions[7]="Ignore StaticMeshActor"
+HelpParamDescriptions[8]="Ignore Texture"
+HelpParamDescriptions[9]="Ignore Material"
+HelpParamNames[0]="-MAPSONLY"
+HelpParamNames[1]="-EXCLUDESCRIPT"
+HelpParamNames[10]="-IGNOREPARTICLE"
+HelpParamNames[11]="-IGNOREANIMS"
+HelpParamNames[12]="-IGNORESOUNDCUE"
+HelpParamNames[13]="-IGNOREBRUSH"
+HelpParamNames[14]="-IGNORELEVEL"
+HelpParamNames[15]="-IGNORESHADOWMAP"
+HelpParamNames[16]="-IGNOREFACEFX"
+HelpParamNames[2]="-EXCLUDENONNATIVESCRIPT"
+HelpParamNames[3]="-LOADSUBLEVELS"
+HelpParamNames[4]="-TESTSPECULARTEXTURE"
+HelpParamNames[5]="-IGNORESTATICMESH"
+HelpParamNames[6]="-IGNORESMC"
+HelpParamNames[7]="-IGNORESTATICMESHACTOR"
+HelpParamNames[8]="-IGNORETEXTURE"
+HelpParamNames[9]="-IGNOREMATERIAL"
+HelpUsage="gamename.exe AnalyzeReferencedContent <list of packages>"
+HelpWebLink=""
+
+[AnalyzeReferencedObjectCommandlet]
+HelpDescription="This dump .cvs file with actors reference information by spawning this actor."
+HelpParamDescriptions[0]="Load all child classes of the given actor. For example, if you have Weapon as parameter, it will load all child class of Weapon that can be created."
+HelpParamNames[0]="-LOADCHILDCLASSES"
+HelpUsage="gamename.exe AnalyzeReferencedObject <Class of Actor>"
+HelpWebLink=""
+
+[AnalyzeScriptCommandlet]
+HelpDescription="Analyzes all Unrealscript .u files and generates a list of potential optimizations."
+HelpUsage="gamename.exe AnalyzeScript"
+HelpWebLink=""
+
+[AnimSetNotifyCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[AssetSizeCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[BatchExportCommandlet]
+HelpDescription="Export objects in bulk from Unreal packages to various formats"
+HelpParamDescriptions[0]="Package whose objects you wish to export, or specify * for all packages"
+HelpParamDescriptions[1]="Class of object to export"
+HelpParamDescriptions[2]="File extension to export to"
+HelpParamDescriptions[3]="Path to export files to."
+HelpParamDescriptions[4]="If specified, exported files will have full path names (pkg.group.object.ext)"
+HelpParamNames[0]="package.ext"
+HelpParamNames[1]="classname"
+HelpParamNames[2]="export_ext"
+HelpParamNames[3]="dest_path_name"
+HelpParamNames[4]="-fullname"
+HelpUsage="gamename.exe BatchExport <package.ext> <classname> <export_ext> [dest_path_name] [-fullname]"
+HelpWebLink="https://udn.epicgames.com/bin/view/Three/BatchExportCommandlet"
+
+[BuildContentTagIndexCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ChangeDefinitionArchetypesCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ChangePrefabSequenceClassCommandlet]
+HelpDescription="Resaves all packages which are not marked read-only."
+HelpParamDescriptions[0]="Skip the assert when a package can not be opened"
+HelpParamDescriptions[1]="Load all packages, and display warnings for those packages which would have been resaved but were read-only or could not otherwise be saved."
+HelpParamDescriptions[10]="Does not attempt to load any maps"
+HelpParamDescriptions[2]="Indicates that only packages which are marked dirty should be resaved.  This is normally used for easily eliminating compatibility or fixup patches in the loading code (provided that the patch marks the package dirty)."
+HelpParamDescriptions[3]="Automatically checks out read-only packages which need to be resaved."
+HelpParamDescriptions[4]="Indicates that only packages with a package version higher than ## should be resaved."
+HelpParamDescriptions[5]="Indicates that only packages with a package version lower than ## should be resaved."
+HelpParamDescriptions[6]="Indicates that only packages that have a package version lower than the current package version should be resaved."
+HelpParamDescriptions[7]="if a package (when loaded) results in FailedLoad errors then we want to resave this package  (this is useful for removing a class or package and automatically removing all references to/from the worldstate)"
+HelpParamDescriptions[8]="Removes any Class objects from packages which are not script packages."
+HelpParamDescriptions[9]="Instances subobjects for any existing objects with subobject properties whose values point to the default object."
+HelpParamNames[0]="-SKIPFAILS"
+HelpParamNames[1]="-VERIFY"
+HelpParamNames[10]="-SkipMaps"
+HelpParamNames[2]="-OnlySaveDirtyPackages"
+HelpParamNames[3]="-AutoCheckOutPackages"
+HelpParamNames[4]="-MINVER=##"
+HelpParamNames[5]="-MAXVER=##"
+HelpParamNames[6]="-CHECKVER"
+HelpParamNames[7]="-SavePackagesThatHaveFailedLoads"
+HelpParamNames[8]="-cleanclasses"
+HelpParamNames[9]="-instancemissingsubobjects"
+HelpUsage="gamename.exe ResavePackages [-switches...]"
+HelpWebLink=""
+
+[CheckParticleModuleKillCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[CheckpointGameAssetDatabaseCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[CheckStaticMeshActorScaleCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[CompareLocalizedPackagesCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[CompressAnimationsCommandlet]
+HelpDescription="Compresses all animations."
+HelpParamDescriptions[0]="Whether to check maps or not"
+HelpParamDescriptions[1]="Whether to autocheck out packages that need to be changed"
+HelpParamDescriptions[2]="Whether to list all of the packages it is processing"
+HelpParamDescriptions[3]="Whether to skip read only packages"
+HelpParamDescriptions[4]="Don't compress, just report potential candidates for optimization."
+HelpParamNames[0]="-LOADMAPS"
+HelpParamNames[1]="-AutoCheckOutPackages"
+HelpParamNames[2]="-VERBOSE"
+HelpParamNames[3]="-SKIPREADONLY"
+HelpParamNames[4]="-Analyze"
+HelpUsage="gamename CompressAnimations <params>"
+HelpWebLink=""
+
+[CompressTexturesCommandlet]
+HelpDescription="Compresses textures with DeferCompression=TRUE, and also fixes NormalMaps with bad UnpackMin/UnpackMax or SRBG set"
+HelpParamDescriptions[0]="Does not attempt to load any maps"
+HelpParamDescriptions[1]="Automatically checks out read-only packages which need to be resaved."
+HelpParamNames[0]="-SkipMaps"
+HelpParamNames[1]="-AutoCheckOutPackages"
+HelpUsage="gamename.exe CompressTextures [-switches...]"
+HelpWebLink=""
+
+[ConformCommandlet]
+HelpDescription="Makes two versions of the same package network compatible"
+HelpParamDescriptions[0]="Existing binary file to load, conform, and save."
+HelpParamDescriptions[1]="Old file to make source file binary compatible with."
+HelpParamNames[0]="existing_file.ext"
+HelpParamNames[1]="old_file.ext"
+HelpUsage="gamename.exe conform existing_file.ext old_file.ext"
+HelpWebLink=""
+
+[CookPackagesCommandlet]
+HelpDescription="Resaves packages so that they can be loaded on a console."
+HelpParamDescriptions[0]="Optional package name. If specified, only this package and its dependencies packages will be cooked.  Multiple package names should be separated by spaces."
+HelpParamDescriptions[1]="Recooks all packages. Deletes all packages in the cooked directory first."
+HelpParamDescriptions[10]="Indicates that all packages should be cooked (default behavior is to cook only packages used by any maps being cooked)."
+HelpParamDescriptions[11]="Indicates that StaticMeshActors should be removed from cooked packages (overrides the value of the bCookOutStaticMeshActors line from the Engine.StaticMeshCollectionActor section of the XenonEngine.ini)."
+HelpParamDescriptions[12]="Indicates that StaticMeshActors should NOT be removed from cooked packages (overrides the value of the bCookOutStaticMeshActors line from the Engine.StaticMeshCollectionActor section of the XenonEngine.ini)."
+HelpParamDescriptions[13]="Indicates that static Light actors should be removed from cooked packages (overrides the value of the bCookOutStaticLightActors line from the Engine.StaticLightCollectionActor section of the XenonEngine.ini)."
+HelpParamDescriptions[14]="Indicates that static Light actors should NOT be removed from cooked packages (overrides the value of the bCookOutStaticLightActors line from the Engine.StaticLightCollectionActor section of the XenonEngine.ini)."
+HelpParamDescriptions[15]="This analyzes referenced content during cooking process and outputs CSV file. For now, it only does FaceFX when it uses cooking within persistent map. (Also look at AnalyzeReferenceContent commandlet)"
+HelpParamDescriptions[16]="Determines the format of the cooked data.  Valid values are: PS3, Xenon or Xbox360, PC or Win32"
+HelpParamDescriptions[2]="Skip cooking of map packages."
+HelpParamDescriptions[3]="Force recook of map packages, regardless of whether they've changed or not."
+HelpParamDescriptions[4]="Force recook of script packages, regardless of whether they've changed or not."
+HelpParamDescriptions[5]="Indicates that only the .ini files should be cooked."
+HelpParamDescriptions[6]="Generates a hash file which contains the names and expected sizes of all cooked packages."
+HelpParamDescriptions[7]="Specifies that map packages should be processed but not saved (useful when cooking localized packages)."
+HelpParamDescriptions[8]="Force recook of script packages, regardless of whether they've changed or not."
+HelpParamDescriptions[9]="Skip cooking of packages not required for startup (useful when cooking localized packages)."
+HelpParamNames[0]="[packagename.ext]"
+HelpParamNames[1]="-Full"
+HelpParamNames[10]="-CookAllNonMapPackages"
+HelpParamNames[11]="-RemoveStaticMeshActors"
+HelpParamNames[12]="-KeepStaticMeshActors"
+HelpParamNames[13]="-RemoveStaticLights"
+HelpParamNames[14]="-KeepStaticLights"
+HelpParamNames[15]="-AnalyzeReferencedContent"
+HelpParamNames[16]="PlatformName"
+HelpParamNames[2]="-SkipMaps"
+HelpParamNames[3]="-AlwaysRecookMaps"
+HelpParamNames[4]="-AlwaysRecookScript"
+HelpParamNames[5]="-InisOnly"
+HelpParamNames[6]="-SHA"
+HelpParamNames[7]="-SkipSavingMaps"
+HelpParamNames[8]="-AlwaysRecookScript"
+HelpParamNames[9]="-SkipNotRequiredPackages"
+HelpUsage="gamename.exe CookPackages -Platform=<PlatformName> [packagename.ext...] [Switches]"
+HelpWebLink="https://udn.epicgames.com/bin/view/Three/CookPackagesXenonCommandlet\"\t;@todo SAMZ update this page."
+
+[CreateDefaultStyleCommandlet]
+HelpDescription="Creates a package containing the default UISkin"
+HelpUsage="gamename.exe createdefaultstyle"
+HelpWebLink=""
+
+[CutDownContentCommandlet]
+HelpDescription="Removes unused content from packages.   Processed packages are output to the UnrealEngine3/CutdownPackages/Packages/ directory"
+HelpParamDescriptions[0]="The name of the package to process.  Multiple packages can be specified on the commandline by separating each package name with a space"
+HelpParamNames[0]="package.ext"
+HelpUsage="gamename.exe cutdowncontent <package.ext> [package.ext...]"
+HelpWebLink=""
+
+[DiffPackagesCommandlet]
+HelpDescription="Compares the property values of two packages (optionally against a common base) and prints out the differences"
+HelpParamDescriptions[0]="The name of the first package to compare.  Can be just the package name, a relative pathname, or an absolute path name.  A qualified pathname is required when the package is outside the game directory or when comparing two packages with the same name but different locations."
+HelpParamDescriptions[1]="The name of the second package to compare.  Can be just the package name, a relative pathname, or an absolute path name.  A qualified pathname is required when the package is outside the game directory or when comparing two packages with the same name but different locations."
+HelpParamDescriptions[2]="When performing three-way comparisons, the name of the common ancestor to compare the two versions of the package against.  Can be just the package name, a relative pathname, or an absolute path name.  A qualified pathname is required when the package is outside the game directory or when comparing two packages with the same name but different locations."
+HelpParamDescriptions[3]="Indicates that all properties should be considered in the comparison.  Without this switch, properties declared in Object.uc and non-editable are ignored."
+HelpParamDescriptions[4]="Indicates that all properties except those declared in Object.uc should be considered in the comparison.  Without this switch, non-editable properties are ignored."
+HelpParamNames[0]="first_packagename"
+HelpParamNames[1]="second_packagename"
+HelpParamNames[2]="ancestor=ancestor_packagename"
+HelpParamNames[3]="-full"
+HelpParamNames[4]="-most"
+HelpUsage="gamename DiffPackages <first_packagename> <second_packagename> [-ancestor=<ancestor_packagename>] [-full | -most]"
+HelpWebLink=""
+
+[DumpEmittersCommandlet]
+HelpDescription="Particle system information dump - identifies emitters and their modules"
+HelpUsage=""
+HelpWebLink=""
+
+[DumpLightmapInfoCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[DumpShadersCommandlet]
+HelpDescription="Dumps shader data from the supplied global shader or material into Engine/Shaders."
+HelpParamDescriptions[0]="Platform is ps3, xenon, allpc, pc_sm3, pc_sm4"
+HelpParamNames[0]="platform"
+HelpUsage="gamename DumpShaders platform=<platform> [globalshader=<shadertype>] [material=<materialname>]"
+HelpWebLink=""
+
+[ExamineOutersCommandlet]
+HelpDescription="Displays the Outer for all subobjects in all packages, in a table view format"
+HelpUsage="gamename.exe ExamineOuters"
+HelpWebLink="https://udn.epicgames.com/bin/view/Three/ExamineOutersCommandlet"
+
+[ExportLocCommandlet]
+HelpDescription="Exports localized property values for the specified package\""
+HelpParamDescriptions[0]="the name of the package to export localized text for"
+HelpParamDescriptions[1]="uses the list of loc files in the localization directory to build a list of package names to export"
+HelpParamDescriptions[2]="Specfies the language to export property values for; overrides the language setting configured in the Engine.ini"
+HelpParamNames[0]="package_name"
+HelpParamNames[1]="-FULL"
+HelpParamNames[2]="-LanguageForCooking=<lang_ext>"
+HelpUsage=""
+HelpWebLink=""
+
+[ExportPackageObjectsCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FindAssetReferencesCommandlet]
+HelpDescription="Displays a list of assets from all packages which reference a particular asset.  By default both map packages and asset packages will be searched"
+HelpParamDescriptions[0]="The asset name to find references of"
+HelpParamDescriptions[1]="Indicates that only map packages should be searched."
+HelpParamDescriptions[2]="Indicates that only asset packages should be searched."
+HelpParamNames[0]="Package.Path.Name"
+HelpParamNames[1]="-mapsonly"
+HelpParamNames[2]="-packagesonly"
+HelpUsage="gamename.exe FindAssetReferences Package.Path.Name <-mapsonly> <-packagesonly>"
+HelpWebLink=""
+
+[FindbLinearBreakableCheckedCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FindDuplicateKismetObjectsCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FindEmitterMismatchedLODsCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FindEmitterModifiedLODsCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FindEmitterModuleLODErrorsCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FindNullPhysMaterialCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FindQuestionableTexturesCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FindRenamedPrefabSequencesCommandlet]
+HelpDescription="Checks maps for errors or specific types of object references"
+HelpParamDescriptions[0]="Optional map name to check.  Wildcards are accepted."
+HelpParamDescriptions[1]="Instead of performing a full map check, indicates that only references to StaticMeshActors and static Light actors should be reported."
+HelpParamDescriptions[2]="Print the path name for all referenced StaticMeshActors and static Light actors to the console window (only relevant when using -StaticRefs)."
+HelpParamDescriptions[3]="Same as -ShowObjectNames, except that the names of the referenced objects is written only to the log, not the console window. (useful for speeding up the commandlet when processing maps with large number of these actors)"
+HelpParamDescriptions[4]="Writes the path names of all objects which reference StaticMeshActors and static Light actors to the log (only relevant when using -StaticRefs)."
+HelpParamNames[0]="mapname.ext"
+HelpParamNames[1]="-StaticRefs"
+HelpParamNames[2]="-ObjectNames"
+HelpParamNames[3]="-LogObjectNames"
+HelpParamNames[4]="-ShowReferencers"
+HelpUsage="gamename run PerformMapCheck [mapname.ext] [-switches...]"
+HelpWebLink=""
+
+[FindStaticActorsRefsCommandlet]
+HelpDescription="Checks maps for errors or specific types of object references"
+HelpParamDescriptions[0]="Optional map name to check.  Wildcards are accepted."
+HelpParamDescriptions[1]="Instead of performing a full map check, indicates that only references to StaticMeshActors and static Light actors should be reported."
+HelpParamDescriptions[2]="Print the path name for all referenced StaticMeshActors and static Light actors to the console window (only relevant when using -StaticRefs)."
+HelpParamDescriptions[3]="Same as -ShowObjectNames, except that the names of the referenced objects is written only to the log, not the console window. (useful for speeding up the commandlet when processing maps with large number of these actors)"
+HelpParamDescriptions[4]="Writes the path names of all objects which reference StaticMeshActors and static Light actors to the log (only relevant when using -StaticRefs)."
+HelpParamNames[0]="mapname.ext"
+HelpParamNames[1]="-StaticRefs"
+HelpParamNames[2]="-ObjectNames"
+HelpParamNames[3]="-LogObjectNames"
+HelpParamNames[4]="-ShowReferencers"
+HelpUsage="gamename run PerformMapCheck [mapname.ext] [-switches...]"
+HelpWebLink=""
+
+[FindTexturesWithMissingPhysicalMaterialsCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FixAmbiguousMaterialParametersCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FixupEmittersCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[FixupRedirectsCommandlet]
+HelpDescription="@todo"
+HelpUsage="gamename.exe FixupRedirects"
+HelpWebLink=""
+
+[FixupSourceUVsCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ListCorruptedComponentsCommandlet]
+HelpDescription="Displays components which have been corrupted in some way (incorrect Outer, incorrect ObjectArchetype, etc.) for all packages."
+HelpParamDescriptions[0]="Indicates that only those packages that were saved with a package version earlier than the current package version should be checked"
+HelpParamNames[0]="checkver"
+HelpUsage="gamename.exe ListCorruptedComponents [-checkver]"
+HelpWebLink=""
+
+[ListDistanceCrossFadeNodesCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ListEmittersUsingModuleCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ListLoopingEmittersCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ListPackagesReferencingCommandlet]
+HelpDescription="Displays a list of all packages which reference a particular package or asset."
+HelpParamDescriptions[0]="The package name to find references to (extension is optional)"
+HelpParamDescriptions[1]="The fully qualified pathname for the asset to search for references to"
+HelpParamNames[0]="package.ext"
+HelpParamNames[1]="Asset.Path.Name"
+HelpUsage="gamename.exe ListPackagesReferencing <package[.ext] | Asset.Path.Name>"
+HelpWebLink=""
+
+[ListPSysFixedBoundSettingCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ListScriptReferencedContentCommandlet]
+HelpDescription="Lists all content referenced by defaultproperties of Unrealscript classes."
+HelpUsage="gamename.exe ListScriptReferencedContent"
+HelpWebLink=""
+
+[ListSoundNodeWavesCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[LoadPackageCommandlet]
+HelpDescription="Loads the specified packages.  Used for debugging and/or detecting missing resources."
+HelpParamDescriptions[0]="The name of the package/s to load."
+HelpParamDescriptions[1]="Indicates that all packages should be loaded."
+HelpParamNames[0]="package.ext"
+HelpParamNames[1]="-all"
+HelpUsage="gamename.exe LoadPackage <package.ext [package.ext...]|-all>"
+HelpWebLink=""
+
+[LocSoundInfoCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[MakeCommandlet]
+HelpDescription="Compiles Unrealscript source (.uc files) into Unreal packages (.u files) for any packages which are out of date."
+HelpParamDescriptions[0]="Forces all packages to be recompiled, even if they are not out of date."
+HelpParamDescriptions[1]="Do not delete dependent packages which are not out of date.  The default behavior is to rebuild any packages which occur after a package that is out of date in the EditPackages list."
+HelpParamDescriptions[10]="Prevents the preprocessor from processing any UnrealScript macros.  This is useful only for debugging, as it will generally cause your script to fail to compile at all."
+HelpParamDescriptions[2]="Includes debugging information in the compiled binaries.  This is required in order to use the UnrealScript debugger."
+HelpParamDescriptions[3]="Automatically checks out any autogenerated headers that need to be updated, without prompting.  Suppresses all prompts generated by the script compiler which are related to exporting autogenerated header files."
+HelpParamDescriptions[4]="Suppresses all prompts generated during the build by automatically answering \"Yes\"."
+HelpParamDescriptions[5]="Similar to unattended, except that all build output (logging, etc.) is also suppressed."
+HelpParamDescriptions[6]="Suppresses all script compiler status messages from being displayed in the console output window."
+HelpParamDescriptions[7]="Script packages are normally automatically conformed (see help for the ConformCommandlet) if a package with the same name exists in the auto-conform directory (which can be different for each game)"
+HelpParamDescriptions[8]="Treats all script compilation warnings as errors, causing the build to fail"
+HelpParamDescriptions[9]="Script preprocessor: outputs the post-processed versions of all unrealscript files to the preprocessor's intermediate directory, as specified by the ProcessedFileDirectory value in the preprocessor.  Useful for debugging UnrealScript macros."
+HelpParamNames[0]="-full"
+HelpParamNames[1]="-nodelete"
+HelpParamNames[10]="-nopreprocess"
+HelpParamNames[2]="-debug"
+HelpParamNames[3]="-auto"
+HelpParamNames[4]="-unattended"
+HelpParamNames[5]="-silent"
+HelpParamNames[6]="-silentbuild"
+HelpParamNames[7]="-noconform"
+HelpParamNames[8]="-WarningsAsErrors"
+HelpParamNames[9]="-intermediate"
+HelpUsage="gamename.exe make [-switch...] [parm=value...]"
+HelpWebLink=""
+
+[MergePackagesCommandlet]
+HelpDescription="Combines two unrealscript packages into a single package."
+HelpParamDescriptions[0]="The name of the first package to merge"
+HelpParamDescriptions[1]="The name of the second package to merge.  All objects from source_package which do not exist in dest_package will be copied into this package."
+HelpParamNames[0]="source_package.ext"
+HelpParamNames[1]="dest_package.ext"
+HelpUsage="gamename.exe MergePackages <source_package.ext> <dest_package.ext>"
+HelpWebLink=""
+
+[MineCookedPackagesCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[PackageSearchCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[PatchScriptCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[PerformMapCheckCommandlet]
+HelpDescription="Checks maps for errors or specific types of object references"
+HelpParamDescriptions[0]="Optional map name to check.  Wildcards are accepted."
+HelpParamDescriptions[1]="Instead of performing a full map check, indicates that only references to StaticMeshActors and static Light actors should be reported."
+HelpParamDescriptions[2]="Print the path name for all referenced StaticMeshActors and static Light actors to the console window (only relevant when using -StaticRefs)."
+HelpParamDescriptions[3]="Same as -ShowObjectNames, except that the names of the referenced objects is written only to the log, not the console window. (useful for speeding up the commandlet when processing maps with large number of these actors)"
+HelpParamDescriptions[4]="Writes the path names of all objects which reference StaticMeshActors and static Light actors to the log (only relevant when using -StaticRefs)."
+HelpParamNames[0]="mapname.ext"
+HelpParamNames[1]="-StaticRefs"
+HelpParamNames[2]="-ObjectNames"
+HelpParamNames[3]="-LogObjectNames"
+HelpParamNames[4]="-ShowReferencers"
+HelpUsage="gamename run PerformMapCheck [mapname.ext] [-switches...]"
+HelpWebLink=""
+
+[PerformTerrainMaterialDumpCommandlet]
+HelpDescription="Dumps out terrain material usage information"
+HelpParamDescriptions[0]="Optional map name to check.  Wildcards are accepted."
+HelpParamNames[0]="mapname.ext"
+HelpUsage="gamename run PerformTerrainMaterialDump [mapname.ext] [-switches...]"
+HelpWebLink=""
+
+[PIEToNormalCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[PkgInfoCommandlet]
+HelpDescription="Display information about the resources contained within one or more packages"
+HelpParamDescriptions[0]="The name of the package/s to display resource information for."
+HelpParamDescriptions[1]="Displays information about the name table for the specified package/s"
+HelpParamDescriptions[2]="Displays the external resources which are referenced by the objects contained in the specified package/s (ImportTable)"
+HelpParamDescriptions[3]="Displays the resources which are contained in the specified package/s (ExportTable)"
+HelpParamDescriptions[4]="Only relevant when used in combination with the -exports flag.  Causes only the name and size to be displayed, rather the full information for each export."
+HelpParamDescriptions[5]="Displays all data contained by the packge - essentially the same as specifying all three types on the command-line (-imports -exports -names)"
+HelpParamNames[0]="package.ext"
+HelpParamNames[1]="-names"
+HelpParamNames[2]="-imports"
+HelpParamNames[3]="-exports"
+HelpParamNames[4]="-simple"
+HelpParamNames[5]="-all"
+HelpUsage="gamename.exe pkginfo <package.ext> [package.ext...] [-switches...]"
+HelpWebLink=""
+
+[PrecompileShadersCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[PrintPackageCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[RebuildMapCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ReplaceActorCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ReplaceAssetReferencesCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ResavePackagesCommandlet]
+HelpDescription="Resaves all packages which are not marked read-only."
+HelpParamDescriptions[0]="Skip the assert when a package can not be opened"
+HelpParamDescriptions[1]="Load all packages, and display warnings for those packages which would have been resaved but were read-only or could not otherwise be saved."
+HelpParamDescriptions[10]="Does not attempt to load any maps"
+HelpParamDescriptions[2]="Indicates that only packages which are marked dirty should be resaved.  This is normally used for easily eliminating compatibility or fixup patches in the loading code (provided that the patch marks the package dirty)."
+HelpParamDescriptions[3]="Automatically checks out read-only packages which need to be resaved."
+HelpParamDescriptions[4]="Indicates that only packages with a package version higher than ## should be resaved."
+HelpParamDescriptions[5]="Indicates that only packages with a package version lower than ## should be resaved."
+HelpParamDescriptions[6]="Indicates that only packages that have a package version lower than the current package version should be resaved."
+HelpParamDescriptions[7]="if a package (when loaded) results in FailedLoad errors then we want to resave this package  (this is useful for removing a class or package and automatically removing all references to/from the worldstate)"
+HelpParamDescriptions[8]="Removes any Class objects from packages which are not script packages."
+HelpParamDescriptions[9]="Instances subobjects for any existing objects with subobject properties whose values point to the default object."
+HelpParamNames[0]="-SKIPFAILS"
+HelpParamNames[1]="-VERIFY"
+HelpParamNames[10]="-SkipMaps"
+HelpParamNames[2]="-OnlySaveDirtyPackages"
+HelpParamNames[3]="-AutoCheckOutPackages"
+HelpParamNames[4]="-MINVER=##"
+HelpParamNames[5]="-MAXVER=##"
+HelpParamNames[6]="-CHECKVER"
+HelpParamNames[7]="-SavePackagesThatHaveFailedLoads"
+HelpParamNames[8]="-cleanclasses"
+HelpParamNames[9]="-instancemissingsubobjects"
+HelpUsage="gamename.exe ResavePackages [-switches...]"
+HelpWebLink=""
+
+[ScaleAudioVolumeCommandlet]
+HelpDescription="Scales the volume of audio data across all packages"
+HelpParamDescriptions[0]="The amount to scale the audio by.  For example, specifying 1.1 makes all audio volumes 10 percent louder"
+HelpParamNames[0]="volumescale"
+HelpUsage="gamename.exe scaleaudiovolume <volumescale>"
+HelpWebLink=""
+
+[SetAnimationCompressionCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[SetDetailModeCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[SetMaterialUsageCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[SetPackageFlagsCommandlet]
+HelpDescription="Sets certain allowed package flags on the specified package(s)"
+HelpParamDescriptions[0]="The package(s) to modify flags for"
+HelpParamDescriptions[1]="List of flags to modify and the desired value (true or false). Supported flags: ServerSideOnly, ClientOptional, AllowDownload"
+HelpParamNames[0]="package/wildcard"
+HelpParamNames[1]="flagX=value"
+HelpUsage="gamename.exe SetPackageFlags <package/wildcard> <flag1=value> <flag2=value>..."
+HelpWebLink=""
+
+[SetTextureLODGroupCommandlet]
+HelpDescription="Sets the correct texture LOD group on the texture based on the package.group.object name"
+HelpParamDescriptions[0]="Whether to check maps or not"
+HelpParamDescriptions[1]="Whether to list all of the packages/textures it is processing"
+HelpParamDescriptions[2]="Whether to autocheck out packages that need to be changed"
+HelpParamNames[0]="LOADMAPS"
+HelpParamNames[1]="VERBOSE"
+HelpParamNames[2]="AutoCheckOutPackages"
+HelpUsage="gamename SetTextureLOD <params>"
+HelpWebLink=""
+
+[ShowObjectCountCommandlet]
+HelpDescription="Displays the number of objects of the specified class in each package."
+HelpParamDescriptions[0]="The full pathname for the class to search for, e.g. Engine.LightComponent"
+HelpParamDescriptions[1]="Indicates that only objects that have this class should be counted.  Default behavior is to also count objects of derived classes of the specified class."
+HelpParamDescriptions[10]="Displays the full path name for all objects found by the commandlet"
+HelpParamDescriptions[2]="Indicates that packages which contain unrealscript (usually only .u packages) should be searched as well."
+HelpParamDescriptions[3]="Indicates that packages which have been cooked for a console platform should be searched as well."
+HelpParamDescriptions[4]="Indicates that only those packages which have been cooked for a console platform should be searched."
+HelpParamDescriptions[5]="Indicates that any objects which are only configured to load only on the client should be ignored."
+HelpParamDescriptions[6]="Indicates that any objects which are only configured to load only on the server should be ignored."
+HelpParamDescriptions[7]="Indicates that any objects which are only configured to load only in the editor should be ignored."
+HelpParamDescriptions[8]="Indicates that only read-only packages should be checked (useful for avoiding old test packages which might crash the commandlet)"
+HelpParamDescriptions[9]="Indicates that map pacakges should be skipped (speeds execution when the object you wish to list cannot be placed in maps)"
+HelpParamNames[0]="package.classname"
+HelpParamNames[1]="-ExactClass"
+HelpParamNames[10]="-ObjectNames"
+HelpParamNames[2]="-IncludeScript"
+HelpParamNames[3]="-IncludeCooked"
+HelpParamNames[4]="-CookedOnly"
+HelpParamNames[5]="-SkipClientOnly"
+HelpParamNames[6]="-SkipServerOnly"
+HelpParamNames[7]="-SkipEditorOnly"
+HelpParamNames[8]="-IgnoreWriteable"
+HelpParamNames[9]="-IgnoreMaps"
+HelpUsage="gamename.exe ShowObjectCount <package.classname> [package.classname package.classname ...] [-switches...]"
+HelpWebLink=""
+
+[ShowPropertyFlagsCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[ShowStylesCommandlet]
+HelpDescription="Display information about all UI styles contained in a UISkin package"
+HelpParamDescriptions[0]="The name of the package(s) to display data for. e.g. DefaultUISkin.upk.  Wildcards are accepted."
+HelpParamNames[0]="package.ext"
+HelpUsage="gamename.exe ShowStyles <package.ext> [package.ext package.ext ...]"
+HelpWebLink=""
+
+[ShowTaggedPropsCommandlet]
+HelpDescription="Displays the property names and values that were saved into the specified package"
+HelpParamDescriptions[0]="The name of the package to display data for. e.g. EditorResources.upk"
+HelpParamDescriptions[1]="The full pathname for the class to display serialized data for, e.g. Engine.LightComponent"
+HelpParamDescriptions[2]="Allows you to filter which property values are displayed.  Multiple properties are delimited by commas."
+HelpParamNames[0]="package.ext"
+HelpParamNames[1]="classname"
+HelpParamNames[2]="PropertyName"
+HelpUsage="gamename.exe ShowTaggedProps <package.ext> <classname> [PropertyName,PropertyName...]"
+HelpWebLink=""
+
+[SoundClassInfoCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[StripSourceCommandlet]
+HelpDescription="Removes source code from compiled script packages"
+HelpParamDescriptions[0]="The name of the script package to strip source code from.  Wildcards are not currently supported here."
+HelpParamNames[0]="packagename"
+HelpUsage="gamename.exe stripsource <packagename>.u"
+HelpWebLink=""
+
+[TestCompressionCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[TestWordWrapCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[UT3MapStatsCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+
+[WrangleContentCommandlet]
+HelpDescription=""
+HelpUsage=""
+HelpWebLink=""
+

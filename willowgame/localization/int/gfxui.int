@@ -1,0 +1,36 @@
+[FontLib]
+FontLib=UI_FontsEn.FontsEn
+FontLib=UI_FontsJp.FontsJp
+
+[Fonts]
+BodyFont=Compacta Bd BT,normal
+HeadFont=Compacta Bd BT,normal
+NumbersFont=Compacta Bd BT,normal
+WillowBody=WillowBody,normal
+WillowFont=Compacta Bd BT,normal
+WillowHead=Compacta Bd BT,normal
+WillowHeader=Compacta Bd BT,normal
+WillowItal=Compacta Bd BT,normal
+WillowScript=Compacta Bd BT,normal
+WillowCompact=Compacta Bd BT,normal
+WillowTechNumbers=Chintzy CPU BRK,normal
+
+[GFxGameViewportClient]
+ConnectingMessage="CONECTANDO"
+LoadingMessage="CARREGANDO"
+PausedMessage=""
+PrecachingMessage="CARREGANDO EM CACHÊ"
+SavingMessage="SALVANDO"
+
+[IME]
+MoviePath=GFxIME.IME
+
+[Translation]
+Enable=1
+
+[Global]
+No Trigger=Sem ativador!
+CurrencyName=Créditos 
+Eridium=Eridium
+Experience=exp
+NoReward=Sem recompensa

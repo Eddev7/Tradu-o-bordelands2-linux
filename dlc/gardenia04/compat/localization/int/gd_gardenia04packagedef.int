@@ -1,0 +1,30 @@
+[Customization.CustomizationSet_Gardenia04_MechroHP04 DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Steampunk da Mechromancer"
+
+[Customization.CustomizationSet_Gardenia04_MercHP04 DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Dapper Gent do Gunzerker"
+
+[Customization.CustomizationSet_Gardenia04_PsychoHP04 DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Escuridão Psíquica do Psicopata"
+
+[Customization.CustomizationSet_Gardenia04_PsychoHP04B DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Loucura do Psicopata"
+
+[Customization.CustomizationSet_Gardenia04_PsychoHP04C DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Supremacia do Psicopata"
+
+[Customization.CustomizationSet_Gardenia04_PsychoHP04D DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Dominação do Psicopata"
+
+[Customization.CustomizationSet_Gardenia04_SirenHP04 DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Mutilações e Purpurinas da Sereia"
+
+[Customization.CustomizationSet_Gardenia04_SoldierHP04 DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Haggard Hunter do Soldado"
+
+[Customization.CustomizationSet_Gardenia04_ZeroHP04 DownloadableCustomizationSetDefinition]
+ContentDisplayName="Pacote Lâmina Pungente do Assassino"
+
+[PackageDef_Gardenia04 DownloadablePackageDefinition]
+PackageDisplayName="Pacote de Vestimentas 2"
+

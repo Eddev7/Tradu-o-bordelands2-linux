@@ -1,0 +1,13 @@
+[Psycho_LightTheFuse]
+PlayerInjuredString=ACENDA O PAVIO!
+InjuredTooltipString1=MATE UM INIMIGO COM UMA EXPLOSÃO PARA REVIVER
+InjuredTooltipString2=SEGURE <StringAliasMap:Action.Use> PARA EXPLODIR
+
+[Psycho_PullThePin]
+Notification=MORTE POR PUXAR O PINO!
+
+[WillowGame.Default__CustomizationUsage_ExtraPlayerB CustomizationUsage_ExtraPlayerB]
+CustomizationUsageName=Psicopata
+
+[CustomizationUsage_ExtraPlayerB]
+CustomizationUsageName=Psicopata

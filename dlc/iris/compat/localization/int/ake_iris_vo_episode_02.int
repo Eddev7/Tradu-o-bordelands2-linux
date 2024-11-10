@@ -1,0 +1,114 @@
+[iris_vo_ep2_01_echox_piston]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Eis o que o Piston pode te oferecer, frangote:  Piston vai patrocinar você.\nPiston vai levá-lo debaixo da sua musculosa asa e vamos abrir essa Sepultura juntos.\nEu já organizei sua primeira luta na Arena.  Entre lá e mostre para todos que...\n... Piston e o Caçador da Sepultura juntos são imbatíveis!",Time=0)
+
+[iris_vo_ep2_02_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="É IMPRESSÃO MINHA OU ELE PRETENDE TE F*RRAR...\n... NA PRIMEIRA OPORTUNIDADE QUE TIVER!?",Time=0)
+
+[iris_vo_ep2_03_echox_piston]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Normalmente o seu primeiro combate seria contra um único adversário...\n... mas eu pensei:  Hã...  em vez disso, você vai lutar com alguns idiotas...\n... chamados ''A Horda dos Horrores''.  Eu poderia chutar suas bundas...\n... com os dois braços amarrados nas costas, mas, é melhor você ter cuidado.",Time=0)
+
+[iris_vo_ep2_04_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Senhoras e senhores, parece que o nosso próximo combatente chegou!\nSerá que o Caçador da Sepultura tem o que é preciso para sobreviver a...\n... rodada do ''Apetite por Destruição''?  Acho que todos nós sabemos a resposta: TALVEZ!",Time=0)
+
+[iris_vo_ep2_05_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="As regras são simples!  Use os recursos fornecidos e elimine todo mundo!\nO último lutador de pé será o legítimo Encrenqueiro!",Time=0)
+
+[iris_vo_ep2_06_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Vá para o centro da arena quando estiver pronto para começar!",Time=0)
+
+[iris_vo_ep2_07_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Senhoras e senhores, chegou o momento que todos estavam esperando:\nA Horda dos Horrores contra o Caçador da Sepultura ... LUTEM!",Time=0)
+
+[iris_vo_ep2_08_echo_piston]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Caramba, você ainda está lutando contra esses idiotas?\nVocê vai ter que acelerar o ritmo se quiser ser parceiro do Piston.",Time=0)
+
+[iris_vo_ep2_09_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Um forte golpe vindo do Caçador da Sepultura!",Time=0)
+
+[iris_vo_ep2_10_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Isso foi BRUTAL!  Onde está o árbitro?",Time=0)
+
+[iris_vo_ep2_11_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Ah, meu DEUS... isso foi foda!",Time=0)
+
+[iris_vo_ep2_11a_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Onda completada!  Mas não fique muito confiante!",Time=0)
+
+[iris_vo_ep2_11b_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Próxima onda, vadias!",Time=0)
+
+[iris_vo_ep2_11c_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Outra onda finalizada!  Melhor pegar um pouco de munição!",Time=0)
+
+[iris_vo_ep2_11d_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="É hora de mais uma onda!",Time=0)
+
+[iris_vo_ep2_11e_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Se você ainda estiver vivo, pegue um pouco de munição!\nSe não estiver, ESSA MENSAGEM É INÚTIL!",Time=0)
+
+[iris_vo_ep2_11f_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Lá vem eles!",Time=0)
+
+[iris_vo_ep2_11g_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Esse Caçador da Sepultura está acabando com as ondas assim como...\n... um gordinho dentro de uma loja de biscoitos!  AGORA EU QUERO UM BISCOITO!",Time=0)
+
+[iris_vo_ep2_11h_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="É a última onda!  Não vá morrer agora!",Time=0)
+
+[iris_vo_ep2_12_echo_piston]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Está se descuidando, Caçador.",Time=0)
+
+[iris_vo_ep2_13_live_audience]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="",Time=0)
+
+[iris_vo_ep2_14_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="DING DING DING!  É isso aí... o Caçador da Sepultura venceu e agora...\n... saltou para a quinta posição na classificação!  MEEDLYMOW!",Time=0)
+
+[iris_vo_ep2_15_echo_piston]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Piston está orgulhoso de você.\nMandei meus ajudantes entregarem algumas armas pra você... pegue-as.\nPiston acha que esse é o início de uma linda amizade.",Time=0)

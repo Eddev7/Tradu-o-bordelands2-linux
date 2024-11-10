@@ -1,0 +1,134 @@
+[iris_vo_ep3_01_echo_piston]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Hahahahaha!  Eu não estou pensando em dividir o prêmio da Sepultura...\n... com um mercenário qualquer.  Eu sou o maior lutador de todos os tempos.\nEu mesmo vou abrir a Sepultura.  E você...",Time=0)
+
+[iris_vo_ep3_02_echo_piston]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="... vai dar o fora da minha arena.  Esse barulho que você está ouvindo...\n... é a arena se enchendo de gás Harmstrong.  Eu desliguei as câmeras.\nApenas respire fundo e desmaie... como um verdadeiro covarde.",Time=0)
+
+[iris_vo_ep3_02_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="O que aconteceu com a imagem da câmera?  Por que ouço barulho de gás?\nAlguém pegou o Caçador da Sepultura?  EU NÃO FAÇO IDÉIA DO QUE ESTÁ ACONTECENDO!",Time=0)
+
+[iris_vo_ep3_03_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Mas o quê?  Senhoras e Senhores, o Caçador da Sepultura desapareceu da arena!\nEu não sei onde C*RALHOS ele se meteu!?",Time=0)
+
+[iris_vo_ep3_04_echo_piston]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text=" ... deixa eu te explicar, Torgue.  O Caçador da Sepultura fugiu... para bem longe.\nEle descobriu que teria que lutar contra mim, Piston...\n... para se tornar o maior Encrenqueiro de Pandora e saiu chorando feito um bebê.",Time=0)
+
+[iris_vo_ep3_05_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Fugiu?!  ISSO É RIDÍCULO!  Eu não tenho escolha.\nComo organizador do Torneio Torgue, devo declarar oficialmente...\n... o Caçador da Sepultura como... UM COVARDE!",Time=0)
+
+[iris_vo_ep3_06_live_audience]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="",Time=0)
+
+[iris_vo_ep3_07_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Certo, vou ser sincero com você... eu sei que você...\n... não é um covarde de verdade, mas, P*RRA... você viu como a audiência aumentou?!\nMesmo assim, você vai precisar de um novo patrocinador...\n... se quiser continuar no torneio.  Vá para Beatdown!",Time=0)
+
+[iris_vo_ep3_08_echo_piston]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Vou te dizer uma coisa, aquele Caçador da Sepultura era como um filho pra mim.\nEu patrocinei ele... levei ele ao topo e aí quando chega o duelo final...\n... ele foge com medo.  Tsc... vivendo e aprendendo.",Time=0)
+
+[iris_vo_ep3_09_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Mesmo com toda essa coisa de ''covarde'', você ainda continua...\n... na quinta posição da classificação Torgue de Encrenqueiro e o Piston em primeiro.\nVocê só precisa matar todos pra subir na lista e então...\n... será capaz de pegar o seu heroísmo e bater na cara do Piston com ele!",Time=0)
+
+[iris_vo_ep3_10_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="O QUARTO colocado na classificação de Encrenqueiros vive aqui.\nSeu nome é Pete Incendiário e ele, POR UMA GRANDE COINCIDÊNCIA...\n... sequestrou um patrocinador independente há alguns dias atrás.\nVOCÊ DEVERIA MATÁ-LO E CONHECÊ-LO MELHOR... OU VICE-VERSA.",Time=0)
+
+[iris_vo_ep3_11_echo_pyropete]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Hohohohoho, olha se não é o covardão!  Você vai QUEIMAR!\nQueima, queima, QUEIMA!  O carvão vira brasa... há fogo no céu.\nVamos conversar... o fogo caminha comigo... o fogo conversa comigo.",Time=0)
+
+[iris_vo_ep3_12_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Você vai acabar com o Pete Incendiário mais cedo ou mais tarde...\n... mas primeiro você precisa descobrir onde ele mantém o patrocinador que ele sequestrou.\nCaso contrário, você não poderá subir na classificação.",Time=0)
+
+[iris_vo_ep3_13_echox_pyropete]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="É o COVARDE!  Ohhh, estou ardendo por dentro.  Você quer um patrocinador, é?\nEu tenho um quentinho mas, primeiro você tem que dançar.\nFaça algum barulho aqui em Beatdown e quem sabe eu dou ele pra você!\nVá até o Painel de Batalhas.  Vai... agora... ANTES QUE AS CHAMAS SUBAM!",Time=0)
+
+[iris_vo_ep3_14_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="SUA QUÍMICA REALMENTE ARDE COMO FOGO.",Time=0)
+
+[iris_vo_ep3_15_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="MATAR RATOS!  Muito bem... pra essa batalha você precisa descer...\n... até os esgotos e tirar um monte de ratos de lá!  ISSO É DO CARALHO!",Time=0)
+
+[iris_vo_ep3_16_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Os ratos daqui comem os cadáveres dos desafiantes mortos!\nAconteça o que acontecer, NUNCA imagine-se sendo devorado...\n... por essas coisas se você cair na Arena!  Eu disse, NUNCA!",Time=0)
+
+[iris_vo_ep3_17_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Prepare-se para tomar uma cerveja e chutar alguns traseiros porque...\N... CHEGOU A HORA DO PAU COMER NO BOTECO EM BEATDOWN!\nVocê só tem que começar uma briga com os cachaceiros e ficar vivo!",Time=0)
+
+[iris_vo_ep3_18_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="ESSA LUTA ME FAZ LEMBRAR DO MEU PAI!  O ALCOOLISMO DESTRÓI AS FAMÍLIAS!",Time=0)
+
+[iris_vo_ep3_19_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Você terminou a M*RDA que o Pete Incendiário pediu!\nAgora vá falar com ele e provavelmente ele irá dizer que vai lhe entregar...\n... o patrocinador mas, então ele vai te trair e tentar te matar e aí...\n... você terá que matá-lo e isso vai ser DO CARALHO!  Alguma coisa a dizer, Pete?",Time=0)
+
+[iris_vo_ep3_20_echox_pyropete]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Não.  Você, er... foi bem claro.  Obrigado... por isso.",Time=0)
+
+[iris_vo_ep3_21_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="NÃO TEM DE QUÊ!",Time=0)
+
+[iris_vo_ep3_22_echox_pyropete]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="É... sim, sim.  O patrocinador que eu sequestrei está no bar.\nVá encontrá-la.  Isso não é uma armadilha... hã... é isso aí.",Time=0)
+
+[iris_vo_ep3_23_echox_pyropete]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Ohhhhh nãããão... era uma armadilha.\nIsso deve ter sido um choque tremendo pra você.  Queime no inferno!",Time=0)
+
+[iris_vo_ep3_24_live_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="E aqui vamos nós, fãs da violência!\nPETE INCENDIÁRIO CONTRA O CAÇADOR DA SEPULTURA!  LUTEM!",Time=0)
+
+[iris_vo_ep3_25_live_pyropete]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="Que... calor...",Time=0)
+
+[iris_vo_ep3_26_echo_torgue]
+bManualWordWrap=False
+bMature=False
+Subtitles[0]=(Text="SQUIBBLYBOWWWW!  Com o Pete morto...\n... o patrocinador não deve estar muito longe!  Encontre-o!",Time=0)
